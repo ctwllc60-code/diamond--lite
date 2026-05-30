@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-# ENGINE_ID: lite_server.py | VERSION: 5.6 (Fixed chat response, compact UI)
+# ENGINE_ID: lite_server.py | VERSION: 5.7 (Profile update, compact UI)
 """
 Diamond Lite – Cloud Server
 Flask application with signup, login, chat, memory, tier enforcement,
 health endpoints, and a proven stable mobile‑first chat interface.
-Compact text, fully visible buttons, smooth scroll, and working chat.
+Compact text, fully visible buttons, smooth scroll, and profile update.
 """
 
 from flask import Flask, request, jsonify
@@ -21,6 +21,7 @@ from lite_database import (
     search_conversations,
     export_conversations,
     get_memory_summary,
+    get_connection,
 )
 from lite_llm import ask_llm
 from lite_memory import update_user_memory, get_memory_summary as get_memory_context
@@ -178,6 +179,28 @@ def login():
     return jsonify({"token": token, "display_name": user["display_name"]})
 
 
+# ---- Update Profile ----
+@app.route("/profile", methods=["POST"])
+def update_profile():
+    token = request.headers.get("Authorization", "").replace("Bearer ", "")
+    user_id = get_user_id_from_token(token)
+    if not user_id:
+        return jsonify({"error": "Unauthorized."}), 401
+
+    data = request.get_json()
+    display_name = data.get("display_name", "").strip()
+    if not display_name:
+        return jsonify({"error": "Display name required."}), 400
+
+    conn = get_connection()
+    cursor = conn.cursor()
+    cursor.execute("UPDATE users SET display_name = ? WHERE id = ?", (display_name, user_id))
+    conn.commit()
+    conn.close()
+
+    return jsonify({"success": True, "display_name": display_name})
+
+
 # ---- Chat ----
 @app.route("/chat", methods=["POST"])
 def chat():
@@ -291,7 +314,10 @@ body { display: flex; justify-content: center; align-items: center; }
   <div id="chat-container">
     <div id="header">
       <h2>Diamond Lite</h2>
-      <button id="logout-btn" onclick="logout()">Logout</button>
+      <div>
+        <button onclick="changeName()" style="background:transparent;border:1px solid #444;color:#aaa;padding:2px 8px;border-radius:10px;font-size:10px;cursor:pointer;margin-right:4px;">⚙️</button>
+        <button id="logout-btn" onclick="logout()">Logout</button>
+      </div>
     </div>
     <div id="messages"></div>
     <div id="status">Free tier • 100 messages/day</div>
@@ -365,6 +391,17 @@ function startVoice() {
   rec.lang = 'en-US';
   rec.onresult = e => { input.value = e.results[0][0].transcript; send(); };
   rec.start();
+}
+
+async function changeName() {
+  const newName = prompt('What should I call you?');
+  if (!newName) return;
+  const data = await api('/profile', { display_name: newName });
+  if (data.success) {
+    alert('Got it! I\'ll call you ' + data.display_name + ' from now on.');
+  } else {
+    alert('Something went wrong. Please try again.');
+  }
 }
 
 async function signup() {
