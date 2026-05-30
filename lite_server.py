@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-# ENGINE_ID: lite_server.py | VERSION: 5.3 (Stable frontend, all backend features)
+# ENGINE_ID: lite_server.py | VERSION: 5.5 (Compact chat, smooth scroll)
 """
 Diamond Lite – Cloud Server
 Flask application with signup, login, chat, memory, tier enforcement,
 health endpoints, and a proven stable mobile‑first chat interface.
+Compact text, fully visible buttons, and non‑jumping scroll.
 """
 
 from flask import Flask, request, jsonify
@@ -234,7 +235,7 @@ def chat():
     })
 
 
-# ---- Proven Stable Chat Web Interface ----
+# ---- Compact Chat Interface (small text, visible buttons, smooth scroll) ----
 @app.route("/")
 def index():
     return CHAT_PAGE
@@ -253,26 +254,27 @@ html, body { height: 100%; overflow: hidden; background: #0f0f0f; font-family: -
 body { display: flex; justify-content: center; align-items: center; }
 #app { width: 100%; height: 100%; max-width: 600px; display: flex; flex-direction: column; background: #0f0f0f; color: #eee; }
 #auth { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 24px; gap: 12px; height: 100%; }
-#auth h2 { color: #0a7; font-size: 22px; margin-bottom: 12px; }
-#auth input { width: 100%; padding: 10px 12px; border: none; border-radius: 8px; font-size: 14px; background: #1c1c1c; color: #eee; }
-#auth button { width: 100%; padding: 10px; border: none; border-radius: 8px; font-size: 14px; font-weight: bold; cursor: pointer; }
+#auth h2 { color: #0a7; font-size: 20px; margin-bottom: 10px; }
+#auth input { width: 100%; padding: 8px 10px; border: none; border-radius: 6px; font-size: 13px; background: #1c1c1c; color: #eee; }
+#auth button { width: 100%; padding: 8px; border: none; border-radius: 6px; font-size: 13px; font-weight: bold; cursor: pointer; }
 #auth .primary { background: #0a7; color: #fff; }
 #auth .secondary { background: #444; color: #fff; }
-#auth-error { color: #e44; font-size: 12px; min-height: 16px; text-align: center; }
+#auth-error { color: #e44; font-size: 11px; min-height: 14px; text-align: center; }
 #chat-container { display: none; flex-direction: column; height: 100%; }
-#header { padding: 8px 12px; background: #121212; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #222; }
-#header h2 { font-size: 16px; color: #0a7; }
-#logout-btn { background: transparent; border: 1px solid #444; color: #aaa; padding: 3px 10px; border-radius: 12px; font-size: 11px; cursor: pointer; }
-#messages { flex: 1; overflow-y: auto; padding: 10px; display: flex; flex-direction: column; gap: 6px; -webkit-overflow-scrolling: touch; }
-.msg { max-width: 85%; padding: 8px 10px; border-radius: 14px; line-height: 1.3; font-size: 13px; word-wrap: break-word; }
+#header { padding: 6px 10px; background: #121212; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #222; flex-shrink: 0; }
+#header h2 { font-size: 14px; color: #0a7; }
+#logout-btn { background: transparent; border: 1px solid #444; color: #aaa; padding: 2px 8px; border-radius: 10px; font-size: 10px; cursor: pointer; }
+#messages { flex: 1; overflow-y: auto; padding: 8px; display: flex; flex-direction: column; gap: 5px; -webkit-overflow-scrolling: touch; }
+.msg { max-width: 85%; padding: 6px 8px; border-radius: 12px; line-height: 1.25; font-size: 12px; word-wrap: break-word; }
 .msg.user { align-self: flex-end; background: #1a5fb4; color: #fff; border-bottom-right-radius: 3px; }
 .msg.assistant { align-self: flex-start; background: #2a2a2a; color: #ddd; border-bottom-left-radius: 3px; }
-#status { text-align: center; font-size: 10px; color: #666; padding: 4px; border-top: 1px solid #222; background: #0f0f0f; flex-shrink: 0; }
-#input-area { display: flex; gap: 5px; padding: 6px 8px; background: #181818; border-top: 1px solid #333; flex-shrink: 0; }
-#input-area input { flex: 1; padding: 8px 12px; border: none; border-radius: 18px; background: #252525; color: #eee; font-size: 13px; outline: none; }
-#input-area button { padding: 8px 12px; border: none; border-radius: 18px; font-size: 13px; font-weight: bold; cursor: pointer; display: flex; align-items: center; justify-content: center; }
-#mic-btn { background: #0a7; color: #fff; min-width: 40px; }
-#send-btn { background: #444; color: #fff; min-width: 40px; }
+#status { text-align: center; font-size: 9px; color: #666; padding: 3px; border-top: 1px solid #222; background: #0f0f0f; flex-shrink: 0; }
+/* ---- FIXED INPUT AREA with guaranteed visible buttons ---- */
+#input-area { display: flex; gap: 6px; padding: 6px 8px; background: #181818; border-top: 1px solid #333; flex-shrink: 0; align-items: center; }
+#input-area input { flex: 1; min-width: 0; padding: 8px 12px; border: none; border-radius: 16px; background: #252525; color: #eee; font-size: 12px; outline: none; }
+#input-area button { padding: 8px 12px; border: none; border-radius: 16px; font-size: 13px; font-weight: bold; cursor: pointer; white-space: nowrap; flex-shrink: 0; min-width: 44px; }
+#mic-btn { background: #0a7; color: #fff; }
+#send-btn { background: #444; color: #fff; }
 </style>
 </head>
 <body>
@@ -323,8 +325,12 @@ function addMsg(role, text) {
   const div = document.createElement('div');
   div.className = 'msg ' + role;
   div.textContent = text;
+  // Check if user is near the bottom before auto‑scrolling
+  const atBottom = messages.scrollHeight - messages.scrollTop - messages.clientHeight < 50;
   messages.appendChild(div);
-  messages.scrollTop = messages.scrollHeight;
+  if (atBottom) {
+    messages.scrollTop = messages.scrollHeight;
+  }
 }
 
 function speak(text) {
