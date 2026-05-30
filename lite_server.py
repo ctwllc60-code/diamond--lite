@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-# ENGINE_ID: lite_server.py | VERSION: 7.0 (Code Helper Mode enabled)
+# ENGINE_ID: lite_server.py | VERSION: 5.1 (Stable chat, all backend endpoints)
 """
 Diamond Lite – Cloud Server
-Full features: memory dashboard, starters, reflection, search, export,
-voice gating, tier enforcement, and automatic Code Helper Mode.
+Flask application with signup, login, chat, memory, tier enforcement,
+health endpoints, and a stable mobile‑first chat interface.
+All backend features are preserved; UI for advanced features will be re‑added after testing.
 """
 
 from flask import Flask, request, jsonify
@@ -42,19 +43,6 @@ def generate_token(user_id: int) -> str:
 
 def get_user_id_from_token(token: str) -> int | None:
     return active_tokens.get(token)
-
-
-# ---- Code Helper detection ----
-CODE_KEYWORDS = [
-    "write a", "code", "function", "error", "debug", "python",
-    "javascript", "html", "css", "build an app", "program",
-    "script", "how do i", "fix this", "explain this code"
-]
-
-
-def is_coding_question(text: str) -> bool:
-    lowered = text.lower()
-    return any(keyword in lowered for keyword in CODE_KEYWORDS)
 
 
 # ---- Privacy Policy ----
@@ -217,26 +205,15 @@ def chat():
     history = get_recent_conversation(user_id, 10)
     history_text = "\n".join(f"{m['role']}: {m['content']}" for m in history)
 
-    # Base system prompt
-    system_prompt = (
+    full_prompt = (
         f"You are Diamond Lite, a personal AI companion. "
         f"The user you are speaking with is named {display_name}. "
         f"Use their name occasionally, naturally, when it feels right—not every message. "
         f"Never guess the time of day, day of week, or season. "
         f"Never fabricate history or pretend to know things you don't. "
-        f"Be warm, present, and genuine."
+        f"Be warm, present, and genuine.\n\n"
+        f"Conversation history:\n{history_text}\n\nUser: {message}"
     )
-
-    # Code Helper Mode
-    if is_coding_question(message):
-        system_prompt += (
-            " You are also a helpful coding assistant. "
-            "Respond with clear, step‑by‑step explanations. "
-            "When providing code, use triple backticks (```) to format it properly. "
-            "Be concise but thorough. Encourage the user to learn by explaining concepts."
-        )
-
-    full_prompt = f"{system_prompt}\n\nConversation history:\n{history_text}\n\nUser: {message}"
     response = ask_llm(full_prompt, memory_context)
 
     save_message(user_id, "assistant", response)
@@ -258,7 +235,7 @@ def chat():
     })
 
 
-# ---- Chat Web Interface ----
+# ---- Stable Chat Web Interface (from before the additions) ----
 @app.route("/")
 def index():
     return CHAT_PAGE
@@ -286,21 +263,17 @@ body { display: flex; justify-content: center; align-items: center; }
 #chat-container { display: none; flex-direction: column; height: 100%; }
 #header { padding: 8px 12px; background: #121212; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #222; }
 #header h2 { font-size: 16px; color: #0a7; }
-#header-buttons { display: flex; gap: 8px; flex-wrap: wrap; }
-#header-buttons button { background: transparent; border: 1px solid #444; color: #aaa; padding: 3px 10px; border-radius: 12px; font-size: 11px; cursor: pointer; }
-#suggestions { display: flex; flex-wrap: wrap; gap: 6px; padding: 8px 12px; background: #121212; border-bottom: 1px solid #222; }
-#suggestions button { background: #1c1c1c; border: 1px solid #333; color: #ccc; padding: 6px 12px; border-radius: 14px; font-size: 11px; cursor: pointer; }
+#logout-btn { background: transparent; border: 1px solid #444; color: #aaa; padding: 3px 10px; border-radius: 12px; font-size: 11px; cursor: pointer; }
 #messages { flex: 1; overflow-y: auto; padding: 10px; display: flex; flex-direction: column; gap: 6px; -webkit-overflow-scrolling: touch; }
-.msg { max-width: 85%; padding: 8px 10px; border-radius: 14px; line-height: 1.3; font-size: 13px; word-wrap: break-word; white-space: pre-wrap; font-family: inherit; }
+.msg { max-width: 85%; padding: 8px 10px; border-radius: 14px; line-height: 1.3; font-size: 13px; word-wrap: break-word; }
 .msg.user { align-self: flex-end; background: #1a5fb4; color: #fff; border-bottom-right-radius: 3px; }
 .msg.assistant { align-self: flex-start; background: #2a2a2a; color: #ddd; border-bottom-left-radius: 3px; }
-.msg.assistant code, .msg.assistant pre { background: #1a1a1a; border-radius: 4px; padding: 2px 4px; font-family: monospace; font-size: 11px; }
 #status { text-align: center; font-size: 10px; color: #666; padding: 4px; border-top: 1px solid #222; background: #0f0f0f; flex-shrink: 0; }
-#input-area { display: flex; gap: 6px; padding: 6px 8px; background: #181818; border-top: 1px solid #333; flex-shrink: 0; align-items: center; }
-#input-area input { flex: 1; min-width: 0; padding: 8px 12px; border: none; border-radius: 18px; background: #252525; color: #eee; font-size: 13px; outline: none; }
-#input-area button { padding: 10px 12px; border: none; border-radius: 18px; font-size: 14px; font-weight: bold; cursor: pointer; white-space: nowrap; flex-shrink: 0; }
-#mic-btn { background: #0a7; color: #fff; }
-#send-btn { background: #444; color: #fff; }
+#input-area { display: flex; gap: 5px; padding: 6px 8px; background: #181818; border-top: 1px solid #333; flex-shrink: 0; }
+#input-area input { flex: 1; padding: 8px 12px; border: none; border-radius: 18px; background: #252525; color: #eee; font-size: 13px; outline: none; }
+#input-area button { padding: 8px 12px; border: none; border-radius: 18px; font-size: 13px; font-weight: bold; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+#mic-btn { background: #0a7; color: #fff; min-width: 40px; }
+#send-btn { background: #444; color: #fff; min-width: 40px; }
 </style>
 </head>
 <body>
@@ -317,15 +290,8 @@ body { display: flex; justify-content: center; align-items: center; }
   <div id="chat-container">
     <div id="header">
       <h2>Diamond Lite</h2>
-      <div id="header-buttons">
-        <button onclick="openMemory()">Memory</button>
-        <button onclick="openSearch()">Search</button>
-        <button onclick="openReflect()">Reflect</button>
-        <button onclick="openExport()">Export</button>
-        <button onclick="logout()">Logout</button>
-      </div>
+      <button id="logout-btn" onclick="logout()">Logout</button>
     </div>
-    <div id="suggestions"></div>
     <div id="messages"></div>
     <div id="status">Free tier • 100 messages/day</div>
     <div id="input-area">
@@ -341,12 +307,10 @@ let voiceAllowed = false;
 const messages = document.getElementById('messages');
 const input = document.getElementById('msg-input');
 const statusEl = document.getElementById('status');
-const suggestions = document.getElementById('suggestions');
 
 if (token) {
   document.getElementById('auth').style.display = 'none';
   document.getElementById('chat-container').style.display = 'flex';
-  loadStarters();
 }
 
 async function api(url, body) {
@@ -389,73 +353,6 @@ async function send() {
   }
 }
 
-async function loadStarters() {
-  const data = await api('/starters', null);
-  if (data.prompts) {
-    suggestions.innerHTML = '';
-    data.prompts.forEach(p => {
-      const btn = document.createElement('button');
-      btn.textContent = p;
-      btn.onclick = () => { input.value = p; send(); };
-      suggestions.appendChild(btn);
-    });
-  }
-}
-
-async function openMemory() {
-  const data = await api('/memory', null);
-  if (data.locked) {
-    alert(data.message);
-    return;
-  }
-  let msg = 'Your Memory Dashboard:\\n\\n';
-  if (data.themes && data.themes.length) msg += 'Interests: ' + data.themes.join(', ') + '\\n';
-  if (data.projects && data.projects.length) msg += 'Projects: ' + data.projects.join(', ') + '\\n';
-  if (data.preferences && data.preferences.length) msg += 'Preferences: ' + data.preferences.join(', ') + '\\n';
-  if (data.milestones && data.milestones.length) msg += 'Recent milestones: ' + data.milestones.join(', ');
-  addMsg('assistant', msg || 'No memory data yet. Keep chatting and I\'ll learn about you.');
-}
-
-async function openSearch() {
-  const query = prompt('Enter a word or phrase to search your conversations:');
-  if (!query) return;
-  const data = await api('/search', { query });
-  if (data.locked) {
-    alert(data.message);
-    return;
-  }
-  if (!data.results || !data.results.length) {
-    addMsg('assistant', 'No messages found matching "' + query + '".');
-    return;
-  }
-  data.results.forEach(r => {
-    addMsg(r.role, r.content);
-  });
-}
-
-async function openReflect() {
-  const data = await api('/reflect', null);
-  addMsg('assistant', data.prompt);
-  input.value = '';
-  input.focus();
-}
-
-async function openExport() {
-  const data = await api('/export', null);
-  if (data.locked) {
-    alert(data.message);
-    return;
-  }
-  const blob = new Blob([data.text], {type: 'text/plain'});
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = 'diamond_lite_export.txt';
-  a.click();
-  URL.revokeObjectURL(url);
-  addMsg('assistant', 'Your conversation history has been downloaded.');
-}
-
 function startVoice() {
   const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
   if (!SR) return alert('Voice not supported. Use Chrome.');
@@ -475,7 +372,6 @@ async function signup() {
   localStorage.setItem('dl_token', token);
   document.getElementById('auth').style.display = 'none';
   document.getElementById('chat-container').style.display = 'flex';
-  loadStarters();
 }
 
 async function login() {
@@ -487,7 +383,6 @@ async function login() {
   localStorage.setItem('dl_token', token);
   document.getElementById('auth').style.display = 'none';
   document.getElementById('chat-container').style.display = 'flex';
-  loadStarters();
 }
 
 function logout() {
