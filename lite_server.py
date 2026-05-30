@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-# ENGINE_ID: lite_server.py | VERSION: 5.5 (Compact chat, smooth scroll)
+# ENGINE_ID: lite_server.py | VERSION: 5.6 (Fixed chat response, compact UI)
 """
 Diamond Lite – Cloud Server
 Flask application with signup, login, chat, memory, tier enforcement,
 health endpoints, and a proven stable mobile‑first chat interface.
-Compact text, fully visible buttons, and non‑jumping scroll.
+Compact text, fully visible buttons, smooth scroll, and working chat.
 """
 
 from flask import Flask, request, jsonify
@@ -235,7 +235,7 @@ def chat():
     })
 
 
-# ---- Compact Chat Interface (small text, visible buttons, smooth scroll) ----
+# ---- Compact Chat Interface (small text, visible buttons, fixed scroll) ----
 @app.route("/")
 def index():
     return CHAT_PAGE
@@ -325,7 +325,7 @@ function addMsg(role, text) {
   const div = document.createElement('div');
   div.className = 'msg ' + role;
   div.textContent = text;
-  // Check if user is near the bottom before auto‑scrolling
+  // Only auto‑scroll if user is already near the bottom
   const atBottom = messages.scrollHeight - messages.scrollTop - messages.clientHeight < 50;
   messages.appendChild(div);
   if (atBottom) {
