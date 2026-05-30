@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-# ENGINE_ID: lite_tiers.py | VERSION: 1.0
+# ENGINE_ID: lite_tiers.py | VERSION: 2.0 (Free tier 100 messages/day)
 """
 Diamond Lite – Tier Management
 Defines subscription tiers, daily message limits, and tier upgrade/downgrade logic.
-Ready for real payment integration (Stripe, Google Play Billing) later.
+Free tier now allows 100 messages per day.
 """
 
 from lite_database import get_connection
@@ -12,7 +12,7 @@ from lite_database import get_connection
 TIERS = {
     "free": {
         "name": "Free",
-        "daily_limit": 20,
+        "daily_limit": 100,
         "voice_enabled": False,
         "memory_enabled": True,
         "ads_enabled": True,
