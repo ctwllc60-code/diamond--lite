@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-# ENGINE_ID: lite_server.py | VERSION: 5.4 (Privacy policy route added)
+# ENGINE_ID: lite_server.py | VERSION: 6.0 (All 5 features: dashboard, starters, reflection, search, export)
 """
 Diamond Lite – Cloud Server
 Flask application with signup, login, chat, memory, tier enforcement,
-health endpoints, privacy policy, and a compact mobile‑first chat interface.
-Free tier now allows 100 messages per day.
+health endpoints, privacy policy, memory dashboard, conversation starters,
+daily reflection, message search, and export chats.
+Voice is only available for paid (Personal / Professional) users.
 """
 
 from flask import Flask, request, jsonify
@@ -18,9 +19,12 @@ from lite_database import (
     save_message,
     get_recent_conversation,
     increment_message_count,
+    search_conversations,
+    export_conversations,
+    get_memory_summary,
 )
 from lite_llm import ask_llm
-from lite_memory import update_user_memory, get_memory_summary
+from lite_memory import update_user_memory, get_memory_summary as get_memory_context
 from lite_tiers import check_message_allowed, get_tier_info
 
 app = Flask(__name__)
@@ -59,6 +63,85 @@ def privacy():
 @app.route("/health")
 def health():
     return jsonify({"status": "ok", "service": "Diamond Lite"})
+
+
+# ---- Memory Dashboard (paid only) ----
+@app.route("/memory", methods=["GET"])
+def memory_dashboard():
+    token = request.headers.get("Authorization", "").replace("Bearer ", "")
+    user_id = get_user_id_from_token(token)
+    if not user_id:
+        return jsonify({"error": "Unauthorized."}), 401
+
+    user = get_user_by_id(user_id)
+    tier = user.get("tier", "free")
+    if tier == "free":
+        return jsonify({"locked": True, "message": "Memory Dashboard is available on Personal and Professional plans."})
+
+    summary = get_memory_summary(user_id)
+    summary["locked"] = False
+    return jsonify(summary)
+
+
+# ---- Conversation Starters (all users) ----
+@app.route("/starters", methods=["GET"])
+def conversation_starters():
+    return jsonify({
+        "prompts": [
+            "Tell me about your day",
+            "Help me brainstorm an idea",
+            "I need advice on something",
+            "What can you help me with?",
+            "Let's reflect on the week"
+        ]
+    })
+
+
+# ---- Daily Reflection (all users) ----
+@app.route("/reflect", methods=["GET"])
+def daily_reflection():
+    return jsonify({
+        "prompt": "Let's take a moment to reflect. What went well recently? What's been on your mind? I'm here to listen."
+    })
+
+
+# ---- Message Search (paid only) ----
+@app.route("/search", methods=["POST"])
+def message_search():
+    token = request.headers.get("Authorization", "").replace("Bearer ", "")
+    user_id = get_user_id_from_token(token)
+    if not user_id:
+        return jsonify({"error": "Unauthorized."}), 401
+
+    user = get_user_by_id(user_id)
+    tier = user.get("tier", "free")
+    if tier == "free":
+        return jsonify({"locked": True, "message": "Message search is available on Personal and Professional plans."})
+
+    data = request.get_json()
+    query = data.get("query", "").strip()
+    if not query:
+        return jsonify({"results": []})
+
+    results = search_conversations(user_id, query)
+    return jsonify({"results": results, "locked": False})
+
+
+# ---- Export Chats (paid only) ----
+@app.route("/export", methods=["GET"])
+def export_chats():
+    token = request.headers.get("Authorization", "").replace("Bearer ", "")
+    user_id = get_user_id_from_token(token)
+    if not user_id:
+        return jsonify({"error": "Unauthorized."}), 401
+
+    user = get_user_by_id(user_id)
+    tier = user.get("tier", "free")
+    if tier == "free":
+        return jsonify({"locked": True, "message": "Chat export is available on Personal and Professional plans."})
+
+    text = export_conversations(user_id)
+    return jsonify({"text": text, "locked": False})
 
 
 # ---- Signup ----
@@ -116,17 +199,27 @@ def chat():
     count = increment_message_count(user_id)
     save_message(user_id, "user", message)
 
-    memory_context = get_memory_summary(user_id)
+    user = get_user_by_id(user_id)
+    display_name = user.get("display_name", "User")
+
+    memory_context = get_memory_context(user_id)
     history = get_recent_conversation(user_id, 10)
     history_text = "\n".join(f"{m['role']}: {m['content']}" for m in history)
 
-    full_prompt = f"Conversation history:\n{history_text}\n\nUser: {message}"
+    full_prompt = (
+        f"You are Diamond Lite, a personal AI companion. "
+        f"The user you are speaking with is named {display_name}. "
+        f"Use their name occasionally, naturally, when it feels right—not every message. "
+        f"Never guess the time of day, day of week, or season. "
+        f"Never fabricate history or pretend to know things you don't. "
+        f"Be warm, present, and genuine.\n\n"
+        f"Conversation history:\n{history_text}\n\nUser: {message}"
+    )
     response = ask_llm(full_prompt, memory_context)
 
     save_message(user_id, "assistant", response)
     update_user_memory(user_id, message, response)
 
-    user = get_user_by_id(user_id)
     tier = user.get("tier", "free")
     tier_info = get_tier_info(tier)
     messages_remaining = (
@@ -143,7 +236,7 @@ def chat():
     })
 
 
-# ---- Compact Chat Web Interface (Send & Mic buttons always visible) ----
+# ---- Chat Web Interface ----
 @app.route("/")
 def index():
     return CHAT_PAGE
@@ -171,13 +264,15 @@ body { display: flex; justify-content: center; align-items: center; }
 #chat-container { display: none; flex-direction: column; height: 100%; }
 #header { padding: 8px 12px; background: #121212; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #222; }
 #header h2 { font-size: 16px; color: #0a7; }
-#logout-btn { background: transparent; border: 1px solid #444; color: #aaa; padding: 3px 10px; border-radius: 12px; font-size: 11px; cursor: pointer; }
+#header-buttons { display: flex; gap: 8px; }
+#header-buttons button { background: transparent; border: 1px solid #444; color: #aaa; padding: 3px 10px; border-radius: 12px; font-size: 11px; cursor: pointer; }
+#suggestions { display: flex; flex-wrap: wrap; gap: 6px; padding: 8px 12px; background: #121212; border-bottom: 1px solid #222; }
+#suggestions button { background: #1c1c1c; border: 1px solid #333; color: #ccc; padding: 6px 12px; border-radius: 14px; font-size: 11px; cursor: pointer; }
 #messages { flex: 1; overflow-y: auto; padding: 10px; display: flex; flex-direction: column; gap: 6px; -webkit-overflow-scrolling: touch; }
 .msg { max-width: 85%; padding: 8px 10px; border-radius: 14px; line-height: 1.3; font-size: 13px; word-wrap: break-word; }
 .msg.user { align-self: flex-end; background: #1a5fb4; color: #fff; border-bottom-right-radius: 3px; }
 .msg.assistant { align-self: flex-start; background: #2a2a2a; color: #ddd; border-bottom-left-radius: 3px; }
 #status { text-align: center; font-size: 10px; color: #666; padding: 4px; border-top: 1px solid #222; background: #0f0f0f; flex-shrink: 0; }
-/* ---- FIXED INPUT AREA ---- */
 #input-area { display: flex; gap: 6px; padding: 6px 8px; background: #181818; border-top: 1px solid #333; flex-shrink: 0; align-items: center; }
 #input-area input { flex: 1; min-width: 0; padding: 8px 12px; border: none; border-radius: 18px; background: #252525; color: #eee; font-size: 13px; outline: none; }
 #input-area button { padding: 10px 12px; border: none; border-radius: 18px; font-size: 14px; font-weight: bold; cursor: pointer; white-space: nowrap; flex-shrink: 0; }
@@ -199,8 +294,15 @@ body { display: flex; justify-content: center; align-items: center; }
   <div id="chat-container">
     <div id="header">
       <h2>Diamond Lite</h2>
-      <button id="logout-btn" onclick="logout()">Logout</button>
+      <div id="header-buttons">
+        <button onclick="openMemory()">Memory</button>
+        <button onclick="openSearch()">Search</button>
+        <button onclick="openReflect()">Reflect</button>
+        <button onclick="openExport()">Export</button>
+        <button onclick="logout()">Logout</button>
+      </div>
     </div>
+    <div id="suggestions"></div>
     <div id="messages"></div>
     <div id="status">Free tier • 100 messages/day</div>
     <div id="input-area">
@@ -216,49 +318,19 @@ let voiceAllowed = false;
 const messages = document.getElementById('messages');
 const input = document.getElementById('msg-input');
 const statusEl = document.getElementById('status');
+const suggestions = document.getElementById('suggestions');
 
 if (token) {
   document.getElementById('auth').style.display = 'none';
   document.getElementById('chat-container').style.display = 'flex';
+  loadStarters();
 }
 
 async function api(url, body) {
   const headers = { 'Content-Type': 'application/json' };
   if (token) headers['Authorization'] = 'Bearer ' + token;
-  const res = await fetch(url, { method: 'POST', headers, body: JSON.stringify(body) });
+  const res = await fetch(url, { method: body ? 'POST' : 'GET', headers, body: body ? JSON.stringify(body) : null });
   return res.json();
-}
-
-async function signup() {
-  const email = document.getElementById('email').value.trim();
-  const password = document.getElementById('password').value;
-  const display_name = document.getElementById('display-name').value.trim() || 'User';
-  const data = await api('/signup', { email, password, display_name });
-  if (data.error) return document.getElementById('auth-error').textContent = data.error;
-  token = data.token;
-  localStorage.setItem('dl_token', token);
-  document.getElementById('auth').style.display = 'none';
-  document.getElementById('chat-container').style.display = 'flex';
-}
-
-async function login() {
-  const email = document.getElementById('email').value.trim();
-  const password = document.getElementById('password').value;
-  const data = await api('/login', { email, password });
-  if (data.error) return document.getElementById('auth-error').textContent = data.error;
-  token = data.token;
-  localStorage.setItem('dl_token', token);
-  document.getElementById('auth').style.display = 'none';
-  document.getElementById('chat-container').style.display = 'flex';
-}
-
-function logout() {
-  localStorage.removeItem('dl_token');
-  token = '';
-  voiceAllowed = false;
-  document.getElementById('auth').style.display = 'flex';
-  document.getElementById('chat-container').style.display = 'none';
-  messages.innerHTML = '';
 }
 
 function addMsg(role, text) {
@@ -294,6 +366,73 @@ async function send() {
   }
 }
 
+async function loadStarters() {
+  const data = await api('/starters', null);
+  if (data.prompts) {
+    suggestions.innerHTML = '';
+    data.prompts.forEach(p => {
+      const btn = document.createElement('button');
+      btn.textContent = p;
+      btn.onclick = () => { input.value = p; send(); };
+      suggestions.appendChild(btn);
+    });
+  }
+}
+
+async function openMemory() {
+  const data = await api('/memory', null);
+  if (data.locked) {
+    alert(data.message);
+    return;
+  }
+  let msg = 'Your Memory Dashboard:\\n\\n';
+  if (data.themes && data.themes.length) msg += 'Interests: ' + data.themes.join(', ') + '\\n';
+  if (data.projects && data.projects.length) msg += 'Projects: ' + data.projects.join(', ') + '\\n';
+  if (data.preferences && data.preferences.length) msg += 'Preferences: ' + data.preferences.join(', ') + '\\n';
+  if (data.milestones && data.milestones.length) msg += 'Recent milestones: ' + data.milestones.join(', ');
+  addMsg('assistant', msg || 'No memory data yet. Keep chatting and I\'ll learn about you.');
+}
+
+async function openSearch() {
+  const query = prompt('Enter a word or phrase to search your conversations:');
+  if (!query) return;
+  const data = await api('/search', { query });
+  if (data.locked) {
+    alert(data.message);
+    return;
+  }
+  if (!data.results || !data.results.length) {
+    addMsg('assistant', 'No messages found matching "' + query + '".');
+    return;
+  }
+  data.results.forEach(r => {
+    addMsg(r.role, r.content);
+  });
+}
+
+async function openReflect() {
+  const data = await api('/reflect', null);
+  addMsg('assistant', data.prompt);
+  input.value = '';
+  input.focus();
+}
+
+async function openExport() {
+  const data = await api('/export', null);
+  if (data.locked) {
+    alert(data.message);
+    return;
+  }
+  const blob = new Blob([data.text], {type: 'text/plain'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'diamond_lite_export.txt';
+  a.click();
+  URL.revokeObjectURL(url);
+  addMsg('assistant', 'Your conversation history has been downloaded.');
+}
+
 function startVoice() {
   const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
   if (!SR) return alert('Voice not supported. Use Chrome.');
@@ -301,6 +440,40 @@ function startVoice() {
   rec.lang = 'en-US';
   rec.onresult = e => { input.value = e.results[0][0].transcript; send(); };
   rec.start();
+}
+
+async function signup() {
+  const email = document.getElementById('email').value.trim();
+  const password = document.getElementById('password').value;
+  const display_name = document.getElementById('display-name').value.trim() || 'User';
+  const data = await api('/signup', { email, password, display_name });
+  if (data.error) return document.getElementById('auth-error').textContent = data.error;
+  token = data.token;
+  localStorage.setItem('dl_token', token);
+  document.getElementById('auth').style.display = 'none';
+  document.getElementById('chat-container').style.display = 'flex';
+  loadStarters();
+}
+
+async function login() {
+  const email = document.getElementById('email').value.trim();
+  const password = document.getElementById('password').value;
+  const data = await api('/login', { email, password });
+  if (data.error) return document.getElementById('auth-error').textContent = data.error;
+  token = data.token;
+  localStorage.setItem('dl_token', token);
+  document.getElementById('auth').style.display = 'none';
+  document.getElementById('chat-container').style.display = 'flex';
+  loadStarters();
+}
+
+function logout() {
+  localStorage.removeItem('dl_token');
+  token = '';
+  voiceAllowed = false;
+  document.getElementById('auth').style.display = 'flex';
+  document.getElementById('chat-container').style.display = 'none';
+  messages.innerHTML = '';
 }
 
 input.addEventListener('keypress', e => { if (e.key === 'Enter') send(); });
