@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-# ENGINE_ID: lite_server.py | VERSION: 5.2 (Compact mobile chat, no jump scrolling)
+# ENGINE_ID: lite_server.py | VERSION: 5.3 (Fixed input layout, 100 free msgs)
 """
 Diamond Lite – Cloud Server
 Flask application with signup, login, chat, memory, tier enforcement,
 health endpoints, and a compact mobile‑first chat interface.
-Voice is only available for paid (Personal / Professional) users.
+Free tier now allows 100 messages per day.
 """
 
 from flask import Flask, request, jsonify
@@ -130,7 +130,7 @@ def chat():
     })
 
 
-# ---- Compact Chat Web Interface ----
+# ---- Compact Chat Web Interface (Send & Mic buttons always visible) ----
 @app.route("/")
 def index():
     return CHAT_PAGE
@@ -164,11 +164,12 @@ body { display: flex; justify-content: center; align-items: center; }
 .msg.user { align-self: flex-end; background: #1a5fb4; color: #fff; border-bottom-right-radius: 3px; }
 .msg.assistant { align-self: flex-start; background: #2a2a2a; color: #ddd; border-bottom-left-radius: 3px; }
 #status { text-align: center; font-size: 10px; color: #666; padding: 4px; border-top: 1px solid #222; background: #0f0f0f; flex-shrink: 0; }
-#input-area { display: flex; gap: 5px; padding: 6px 8px; background: #181818; border-top: 1px solid #333; flex-shrink: 0; }
-#input-area input { flex: 1; padding: 8px 12px; border: none; border-radius: 18px; background: #252525; color: #eee; font-size: 13px; outline: none; }
-#input-area button { padding: 8px 12px; border: none; border-radius: 18px; font-size: 13px; font-weight: bold; cursor: pointer; display: flex; align-items: center; justify-content: center; }
-#mic-btn { background: #0a7; color: #fff; min-width: 40px; }
-#send-btn { background: #444; color: #fff; min-width: 40px; }
+/* ---- FIXED INPUT AREA ---- */
+#input-area { display: flex; gap: 6px; padding: 6px 8px; background: #181818; border-top: 1px solid #333; flex-shrink: 0; align-items: center; }
+#input-area input { flex: 1; min-width: 0; padding: 8px 12px; border: none; border-radius: 18px; background: #252525; color: #eee; font-size: 13px; outline: none; }
+#input-area button { padding: 10px 12px; border: none; border-radius: 18px; font-size: 14px; font-weight: bold; cursor: pointer; white-space: nowrap; flex-shrink: 0; }
+#mic-btn { background: #0a7; color: #fff; }
+#send-btn { background: #444; color: #fff; }
 </style>
 </head>
 <body>
@@ -188,7 +189,7 @@ body { display: flex; justify-content: center; align-items: center; }
       <button id="logout-btn" onclick="logout()">Logout</button>
     </div>
     <div id="messages"></div>
-    <div id="status">Free tier • 20 messages/day</div>
+    <div id="status">Free tier • 100 messages/day</div>
     <div id="input-area">
       <input id="msg-input" type="text" placeholder="Message..." autofocus>
       <button id="mic-btn" onclick="startVoice()">🎤</button>
