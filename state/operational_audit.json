@@ -1,0 +1,1612 @@
+[
+    {
+        "event_id": "39742442-a698-44f8-b897-64d1874bc449",
+        "event_type": "scheduler_update",
+        "timestamp": "2026-05-12T15:29:02.975173+00:00",
+        "details": {
+            "next_cycle": "2026-05-12T15:34:02.974394+00:00"
+        }
+    },
+    {
+        "event_id": "819bbf56-aed4-4480-b17c-b03b4b4197ab",
+        "event_type": "monitoring_execution",
+        "timestamp": "2026-05-12T15:29:02.975749+00:00",
+        "details": {
+            "monitoring_health": "stable"
+        }
+    },
+    {
+        "event_id": "80bbe849-6549-4707-93a6-f5daa4dd3097",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-12T15:29:02.976295+00:00",
+        "details": {
+            "session_count": 8
+        }
+    },
+    {
+        "event_id": "4f255d0a-6bbd-4fc7-9193-70e896b2e275",
+        "event_type": "scheduler_update",
+        "timestamp": "2026-05-12T15:29:02.977314+00:00",
+        "details": {
+            "next_cycle": "2026-05-12T15:34:02.976920+00:00"
+        }
+    },
+    {
+        "event_id": "8fd3fca3-fa76-4978-bf2d-fde5aa318ccb",
+        "event_type": "monitoring_execution",
+        "timestamp": "2026-05-12T15:29:02.977958+00:00",
+        "details": {
+            "monitoring_health": "stable"
+        }
+    },
+    {
+        "event_id": "e2becd3b-f0ae-4d71-a9dc-ba9055aa4578",
+        "event_type": "cycle_started",
+        "timestamp": "2026-05-12T15:29:12.277857+00:00",
+        "details": {
+            "cycle_id": "785c8e9e-fc3a-4932-ba0f-13cf94cdcc32"
+        }
+    },
+    {
+        "event_id": "2ebbf43f-5278-4a0e-b5ce-c106e809918a",
+        "event_type": "scheduler_update",
+        "timestamp": "2026-05-12T15:29:12.278956+00:00",
+        "details": {
+            "next_cycle": "2026-05-12T15:34:12.278522+00:00"
+        }
+    },
+    {
+        "event_id": "975f6197-b87a-42b1-a0c5-4ee316230a8a",
+        "event_type": "monitoring_execution",
+        "timestamp": "2026-05-12T15:29:12.279700+00:00",
+        "details": {
+            "monitoring_health": "stable"
+        }
+    },
+    {
+        "event_id": "1007232e-178c-4ba4-908d-cb2d1fc21c91",
+        "event_type": "cycle_completed",
+        "timestamp": "2026-05-12T15:29:16.381475+00:00",
+        "details": {
+            "cycle_id": "785c8e9e-fc3a-4932-ba0f-13cf94cdcc32"
+        }
+    },
+    {
+        "event_id": "e8e6f5cc-6b78-446a-874d-0dba4e8e820a",
+        "event_type": "scheduler_update",
+        "timestamp": "2026-05-12T15:29:16.383000+00:00",
+        "details": {
+            "next_cycle": "2026-05-12T15:34:16.382430+00:00"
+        }
+    },
+    {
+        "event_id": "2a83420f-abba-463c-b66e-96b8e8941ed4",
+        "event_type": "monitoring_execution",
+        "timestamp": "2026-05-12T15:29:16.384068+00:00",
+        "details": {
+            "monitoring_health": "stable"
+        }
+    },
+    {
+        "event_id": "578ed584-fc25-459b-bf32-0d2f66e6b4f9",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-12T15:29:16.385106+00:00",
+        "details": {
+            "processing_duration": 4.1004
+        }
+    },
+    {
+        "event_id": "2ef498fe-9bc2-4b23-9c36-9d33f886ff36",
+        "event_type": "scheduler_update",
+        "timestamp": "2026-05-12T15:29:16.401592+00:00",
+        "details": {
+            "next_cycle": "2026-05-12T15:34:16.401064+00:00"
+        }
+    },
+    {
+        "event_id": "a3c953c3-3a70-4b75-b064-fd8238237b80",
+        "event_type": "monitoring_execution",
+        "timestamp": "2026-05-12T15:29:16.402587+00:00",
+        "details": {
+            "monitoring_health": "stable"
+        }
+    },
+    {
+        "event_id": "f9530fca-b219-4992-b7b5-d4e3d298d438",
+        "event_type": "scheduler_update",
+        "timestamp": "2026-05-12T15:29:21.258576+00:00",
+        "details": {
+            "next_cycle": "2026-05-12T15:34:21.257452+00:00"
+        }
+    },
+    {
+        "event_id": "f74aba58-96f7-4d6e-b488-892148d5b0cb",
+        "event_type": "monitoring_execution",
+        "timestamp": "2026-05-12T15:29:21.260330+00:00",
+        "details": {
+            "monitoring_health": "stable"
+        }
+    },
+    {
+        "event_id": "af893aae-f509-4673-a482-b0ed1abeae32",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-12T15:29:21.261966+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "d4cfde36-d7f1-4753-9bca-38c5d470afe5",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-13T02:04:13.686168+00:00",
+        "details": {
+            "session_count": 9
+        }
+    },
+    {
+        "event_id": "d65b77c9-2196-4a43-8d40-d0fafaacae03",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-13T02:05:11.428020+00:00",
+        "details": {
+            "processing_duration": 7.9714
+        }
+    },
+    {
+        "event_id": "73c12c20-0465-442b-9f94-739bf8f4c2d5",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-13T02:44:11.295367+00:00",
+        "details": {
+            "session_count": 10
+        }
+    },
+    {
+        "event_id": "2937abaf-dbc7-4f79-8d52-1b928b779e63",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-13T02:44:53.536164+00:00",
+        "details": {
+            "processing_duration": 4.3731
+        }
+    },
+    {
+        "event_id": "eb3689dc-c994-4234-8b4c-6548b444d48a",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-13T02:51:44.439763+00:00",
+        "details": {
+            "processing_duration": 4.4096
+        }
+    },
+    {
+        "event_id": "120c771e-7ce4-4f8c-9261-91cfdb252126",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-13T02:58:43.513791+00:00",
+        "details": {
+            "session_count": 11
+        }
+    },
+    {
+        "event_id": "327d1b1d-b351-4636-80df-553b0ee10a61",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-13T03:02:08.290362+00:00",
+        "details": {
+            "session_count": 12
+        }
+    },
+    {
+        "event_id": "bdb39a34-4574-407e-b9a3-935896eb953a",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-13T03:03:31.316614+00:00",
+        "details": {
+            "processing_duration": 5.7646
+        }
+    },
+    {
+        "event_id": "faf13ca2-e855-46c3-975d-5f65ef4b5293",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-13T03:03:32.289929+00:00",
+        "details": {
+            "processing_duration": 0.9655
+        }
+    },
+    {
+        "event_id": "deb26b68-c761-4f2b-9935-bbd985a4fc75",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-13T03:03:36.589750+00:00",
+        "details": {
+            "processing_duration": 4.2934
+        }
+    },
+    {
+        "event_id": "b8f38776-fd15-41a7-b0c8-918a522ba18f",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-13T03:03:40.057471+00:00",
+        "details": {
+            "processing_duration": 3.4612
+        }
+    },
+    {
+        "event_id": "a8898c32-ed41-4e2d-a355-ed91cec24576",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-13T03:03:45.247259+00:00",
+        "details": {
+            "processing_duration": 5.18
+        }
+    },
+    {
+        "event_id": "176f8684-e8b9-4c25-bb1a-1a76b9bb23ad",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-13T03:03:49.660667+00:00",
+        "details": {
+            "processing_duration": 4.4059
+        }
+    },
+    {
+        "event_id": "eb4de8b6-b7c0-4d7b-b1cd-a7d74a910744",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-13T03:03:53.524958+00:00",
+        "details": {
+            "processing_duration": 3.8588
+        }
+    },
+    {
+        "event_id": "685a05c4-c1f6-45e4-995d-b2345500fedb",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-13T03:03:56.659680+00:00",
+        "details": {
+            "processing_duration": 3.1294
+        }
+    },
+    {
+        "event_id": "4c950bb3-bd25-4297-bf67-e6ec53ce9b3c",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-13T03:03:59.888008+00:00",
+        "details": {
+            "processing_duration": 3.2215
+        }
+    },
+    {
+        "event_id": "80e20d49-1fc2-4b60-9992-71404bbb48f4",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-13T03:04:01.862022+00:00",
+        "details": {
+            "processing_duration": 1.9666
+        }
+    },
+    {
+        "event_id": "629d3de7-3d76-496e-ba8f-49cd1921aaff",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-13T03:04:05.699764+00:00",
+        "details": {
+            "processing_duration": 3.8311
+        }
+    },
+    {
+        "event_id": "020682f3-4e6e-4e72-9f4a-cd402f4b1d4c",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-13T03:04:07.300375+00:00",
+        "details": {
+            "processing_duration": 1.5942
+        }
+    },
+    {
+        "event_id": "0b07eef8-221d-4130-93bd-5245ef5726bf",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-13T03:04:09.613384+00:00",
+        "details": {
+            "processing_duration": 2.3053
+        }
+    },
+    {
+        "event_id": "31edd7db-1d06-4bd7-9787-7d78212f5490",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-13T03:04:14.461576+00:00",
+        "details": {
+            "processing_duration": 4.8412
+        }
+    },
+    {
+        "event_id": "c7cc2e8d-2fd6-40e6-bc8a-0fe94381ebed",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-13T03:04:17.338000+00:00",
+        "details": {
+            "processing_duration": 2.8697
+        }
+    },
+    {
+        "event_id": "02167560-7cac-4e63-9c48-60260ff17dd1",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-13T03:04:21.908883+00:00",
+        "details": {
+            "processing_duration": 4.5656
+        }
+    },
+    {
+        "event_id": "a060e8bc-711a-4071-b49a-a44d6349d252",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-13T03:04:27.135825+00:00",
+        "details": {
+            "processing_duration": 5.2215
+        }
+    },
+    {
+        "event_id": "0ccf16f6-14e7-4a03-9935-88dadd6b6a7b",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-13T03:04:29.696073+00:00",
+        "details": {
+            "processing_duration": 2.5554
+        }
+    },
+    {
+        "event_id": "8d487332-32ac-4b2a-aadd-7a2f0de6827e",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-13T17:07:22.886062+00:00",
+        "details": {
+            "session_count": 13
+        }
+    },
+    {
+        "event_id": "41a2d55e-5f8a-4ef9-82d1-529a5cd98ff3",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-13T17:08:29.370043+00:00",
+        "details": {
+            "processing_duration": 5.8
+        }
+    },
+    {
+        "event_id": "1ce89439-1106-4c93-98a5-b110605285c1",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-13T17:08:36.543605+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "15a8a8e2-1bd4-48b0-b4ee-c2fef13726f7",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-13T17:21:40.332184+00:00",
+        "details": {
+            "session_count": 14
+        }
+    },
+    {
+        "event_id": "8924dd81-b152-416b-a412-bd2199d32ca9",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-13T17:22:33.231056+00:00",
+        "details": {
+            "processing_duration": 7.4941
+        }
+    },
+    {
+        "event_id": "6c472b88-d77a-4d62-985a-467dd38945de",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-13T17:42:59.031985+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "4f822a94-8981-4885-903e-942a08aaaed2",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-13T17:45:10.047634+00:00",
+        "details": {
+            "session_count": 15
+        }
+    },
+    {
+        "event_id": "3d10151e-e47c-4407-a2d4-e3027384d13e",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-13T17:46:10.857131+00:00",
+        "details": {
+            "processing_duration": 6.8903
+        }
+    },
+    {
+        "event_id": "5fd38b53-54a6-4cdd-b8c4-550d5df34c4f",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-13T17:53:45.601379+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "fbc930ec-bb1a-47fd-a270-9834964b42a6",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-13T17:55:32.683116+00:00",
+        "details": {
+            "session_count": 16
+        }
+    },
+    {
+        "event_id": "fe172d83-a50b-4030-a275-468b8065fc9c",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-13T17:56:09.344094+00:00",
+        "details": {
+            "processing_duration": 4.7355
+        }
+    },
+    {
+        "event_id": "a06ba604-214d-4c45-87e2-acc5aaf82d9f",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-13T17:57:58.528040+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "71a6290f-bc6a-45ea-b34f-8f6fbe3b7738",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-14T01:57:53.907668+00:00",
+        "details": {
+            "session_count": 17
+        }
+    },
+    {
+        "event_id": "4a123506-57b4-41dc-94bb-1fc2e84e0e7f",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-14T01:59:15.364852+00:00",
+        "details": {
+            "processing_duration": 6.5805
+        }
+    },
+    {
+        "event_id": "39aeee1a-2bde-4506-bae8-c2671d2dd2d4",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-14T02:10:13.375060+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "902975bd-fe53-4e3a-a9cb-d713dabae0a6",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-14T02:15:39.246325+00:00",
+        "details": {
+            "session_count": 18
+        }
+    },
+    {
+        "event_id": "bd0a20ab-64a8-4a13-84c0-1e4c9ba66ab8",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-14T02:17:28.403156+00:00",
+        "details": {
+            "processing_duration": 6.0442
+        }
+    },
+    {
+        "event_id": "8bb8eb44-4032-49c1-b7c6-ae62a9fdfba6",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-14T02:22:59.425012+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "ce03a4f3-1115-4920-9adc-e9b74ed0ab37",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-14T02:59:58.020160+00:00",
+        "details": {
+            "session_count": 19
+        }
+    },
+    {
+        "event_id": "993dbbc9-c8e6-4c03-9529-90b850be388e",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-14T03:00:29.333244+00:00",
+        "details": {
+            "processing_duration": 5.2948
+        }
+    },
+    {
+        "event_id": "1f6f96ca-0019-4fbd-a40f-ac205ae08349",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-14T03:03:18.378220+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "80d82513-0190-4ee9-bb2c-ee56d94357e6",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-15T01:09:51.171428+00:00",
+        "details": {
+            "session_count": 20
+        }
+    },
+    {
+        "event_id": "e9ce6990-9870-419b-bb37-baa2f1bf1854",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-15T01:11:51.982769+00:00",
+        "details": {
+            "processing_duration": 0.0387,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "480b31f8-9397-43c9-809a-255698989fa2",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-15T01:14:23.551354+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "a58883d2-c93e-426c-aefe-34caf164d82d",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-15T01:23:14.195392+00:00",
+        "details": {
+            "session_count": 21
+        }
+    },
+    {
+        "event_id": "2466a59f-6c5a-4037-9377-f47258b309cc",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-15T01:23:43.287457+00:00",
+        "details": {
+            "processing_duration": 0.0404,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "a4a7176a-df1d-4e38-acc4-945b9efe1dfe",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-15T01:24:31.687183+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "0c1bfb14-ddf5-4851-b587-ee5b885b4d9e",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-15T02:15:10.379483+00:00",
+        "details": {
+            "session_count": 22
+        }
+    },
+    {
+        "event_id": "f84617e6-087b-4957-a51d-90fb80fc4b3e",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-15T02:15:24.440459+00:00",
+        "details": {
+            "processing_duration": 0.0399,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "9b6f77aa-6377-46e7-9f36-cce3c256fb3c",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-15T02:16:20.594008+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "490e7b1b-7c92-481f-8ec8-d3be35f1f21e",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-15T02:45:11.370217+00:00",
+        "details": {
+            "session_count": 23
+        }
+    },
+    {
+        "event_id": "b5a6da58-b02b-481c-afbc-f07742d4b167",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-15T02:45:36.179336+00:00",
+        "details": {
+            "processing_duration": 0.0315,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "d9a18960-fdad-4e98-9495-63b847707c4b",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-15T02:46:54.684969+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "ec00759c-b8af-4fb9-abb7-e99e7edcf079",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-15T02:49:42.559744+00:00",
+        "details": {
+            "session_count": 24
+        }
+    },
+    {
+        "event_id": "b67e277d-da24-4ff7-8819-5aa35ac3c1d3",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-15T02:50:06.823567+00:00",
+        "details": {
+            "processing_duration": 0.0251,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "dc8239e5-afd0-4892-8cad-6ae0d219fa8d",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-15T02:50:57.168325+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "45042de2-465d-4a40-9553-bc841f86e598",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-15T02:59:22.231836+00:00",
+        "details": {
+            "session_count": 25
+        }
+    },
+    {
+        "event_id": "3ce39b53-f9c6-46ea-bd0a-8dfdb151feb8",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-15T03:00:12.392862+00:00",
+        "details": {
+            "processing_duration": 8.7934,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "ef00702d-ce33-42f4-acb3-428017a0ea11",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-15T09:51:20.699646+00:00",
+        "details": {
+            "session_count": 26
+        }
+    },
+    {
+        "event_id": "4cde1642-7069-41fc-82ea-be98b375e362",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-15T09:52:36.053797+00:00",
+        "details": {
+            "processing_duration": 8.0879,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "c3899df5-ca4b-40bf-a115-a72283fb25e8",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-15T10:00:40.505332+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "678830ab-989d-407f-bd45-3e93f281f77d",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-15T10:13:55.760727+00:00",
+        "details": {
+            "session_count": 27
+        }
+    },
+    {
+        "event_id": "10d81bac-1d87-480e-b4f3-b5752c396ccb",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-15T10:14:24.210908+00:00",
+        "details": {
+            "processing_duration": 8.301,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "c22728c5-c417-4e02-8ac1-46b1f51b410f",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-15T10:17:45.170499+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "90267e9f-fbbd-447d-a922-08701a275b10",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-15T10:22:10.955126+00:00",
+        "details": {
+            "session_count": 28
+        }
+    },
+    {
+        "event_id": "1d19c0be-4880-4796-a7a6-48446bf6427e",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-15T10:23:20.543956+00:00",
+        "details": {
+            "processing_duration": 5.9165,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "29318d39-1a45-4956-b1ee-3da709e7be0b",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-15T17:28:09.156796+00:00",
+        "details": {
+            "processing_duration": 6.3321,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "c58eb5c5-ffb3-4cb9-97cf-be8cd1c32017",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T00:51:24.349196+00:00",
+        "details": {
+            "processing_duration": 6.2563,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "03301cc5-7be4-4ce7-8601-8f1fffdeac05",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-16T00:58:49.952623+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "0bf13ba3-1136-4d21-ae84-56b1bbdb6efa",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-16T01:36:21.070964+00:00",
+        "details": {
+            "session_count": 29
+        }
+    },
+    {
+        "event_id": "52f50293-64ff-4372-8d19-2833fb2857c1",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:38:08.835943+00:00",
+        "details": {
+            "processing_duration": 7.6824,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "ce5154c1-83aa-463d-b563-0ebf4af66853",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:38:12.583784+00:00",
+        "details": {
+            "processing_duration": 3.7404,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "c3001791-59a8-4f71-b75f-c39e367d5938",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:38:18.982536+00:00",
+        "details": {
+            "processing_duration": 6.3901,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "3f18e5ea-2e50-46e6-8267-b425e392179d",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:38:23.448765+00:00",
+        "details": {
+            "processing_duration": 4.4596,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "d47c7da1-8962-428e-90bd-cf1cca5715f6",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:38:27.308508+00:00",
+        "details": {
+            "processing_duration": 3.8496,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "f6f63549-2c21-433a-a107-4f1d655b215a",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:38:33.374812+00:00",
+        "details": {
+            "processing_duration": 6.0586,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "758c1188-7c34-4f09-9882-3bdec8898a0f",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:38:38.535644+00:00",
+        "details": {
+            "processing_duration": 5.1558,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "cbf2d818-a42c-4312-834c-c633f455b4d0",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:38:41.418310+00:00",
+        "details": {
+            "processing_duration": 2.8763,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "7097c4fa-dbb9-44b0-b4cc-9f9edd2fda8d",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:38:45.284728+00:00",
+        "details": {
+            "processing_duration": 3.8597,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "c2afd4d0-94f8-45c8-bbbe-726d35585b92",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:38:47.450145+00:00",
+        "details": {
+            "processing_duration": 2.1602,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "a52075f6-20c5-4f1e-9aad-d35e18551696",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:38:49.731682+00:00",
+        "details": {
+            "processing_duration": 2.2762,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "8b341980-e24f-4582-94b3-adb5c6ee897d",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:38:51.651451+00:00",
+        "details": {
+            "processing_duration": 1.9142,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "44679d07-86f7-4baf-883a-e4e28075b584",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:38:56.129956+00:00",
+        "details": {
+            "processing_duration": 4.4733,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "b5dee190-3149-4959-80a5-c97860eed3ac",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:39:00.613900+00:00",
+        "details": {
+            "processing_duration": 4.4786,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "c14b06cd-56e7-4924-b2c9-77e83ce07af4",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:39:02.037381+00:00",
+        "details": {
+            "processing_duration": 1.4182,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "d575d62b-b5c8-40a2-9b3c-beb02ec3b336",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:39:03.779612+00:00",
+        "details": {
+            "processing_duration": 1.7364,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "70423985-f738-4b6c-a921-11faf7811ec6",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:39:08.292442+00:00",
+        "details": {
+            "processing_duration": 4.5072,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "736b0199-1844-45f9-b940-d31386b0acce",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:39:10.173413+00:00",
+        "details": {
+            "processing_duration": 1.8755,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "3468188a-fa4e-4440-921e-c0672d3d1717",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:39:13.731175+00:00",
+        "details": {
+            "processing_duration": 3.5521,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "0f892cf9-77cf-4f8f-9c5e-496118972009",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:39:14.703261+00:00",
+        "details": {
+            "processing_duration": 0.9659,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "a1328b02-cd2f-4c97-a6f9-e761885abcf4",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:39:17.892001+00:00",
+        "details": {
+            "processing_duration": 3.1833,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "8bd2122b-fc41-4f9c-a6f3-ecf791d6fec9",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:39:21.088165+00:00",
+        "details": {
+            "processing_duration": 3.1905,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "7f8af934-e084-4df7-87ab-3e63498fdaa9",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:39:25.198995+00:00",
+        "details": {
+            "processing_duration": 4.1052,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "7e0f9e80-b71d-4f4c-8783-d228b195dac9",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:39:31.046152+00:00",
+        "details": {
+            "processing_duration": 5.8408,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "822be20f-ee1d-4094-92f3-b799dd0b0cd9",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:39:38.460196+00:00",
+        "details": {
+            "processing_duration": 7.4077,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "83fdc7de-357e-4ecf-8a1f-8f074cb64206",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T01:39:39.940285+00:00",
+        "details": {
+            "processing_duration": 1.4693,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "70c99b25-0157-40fd-a956-b7c97f089d79",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-16T02:02:53.311773+00:00",
+        "details": {
+            "session_count": 30
+        }
+    },
+    {
+        "event_id": "0c95e8a9-d417-436d-afd6-886c78e94f41",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-16T02:44:12.773809+00:00",
+        "details": {
+            "session_count": 31
+        }
+    },
+    {
+        "event_id": "bbbe639c-6576-4e84-b062-aa433a4988f8",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T02:44:57.163977+00:00",
+        "details": {
+            "processing_duration": 5.2469,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "a6237544-03ce-4e36-b9a4-56b5a91b1387",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T02:51:25.441940+00:00",
+        "details": {
+            "processing_duration": 4.5209,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "aad8020b-40b0-413c-8ec6-46935bceb678",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-16T02:56:29.890773+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "18f91b33-48e0-48c8-a0af-4abdba62c66c",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-16T02:59:53.188718+00:00",
+        "details": {
+            "session_count": 32
+        }
+    },
+    {
+        "event_id": "90ce7540-b047-4dfd-86e8-45b450bda18a",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-16T03:03:54.669873+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "1a14b5a8-88f9-4f8d-870f-06b74a08a224",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-16T03:06:04.251441+00:00",
+        "details": {
+            "session_count": 33
+        }
+    },
+    {
+        "event_id": "f0a626ac-0907-4b54-aa13-bc4258681e94",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T03:06:32.270259+00:00",
+        "details": {
+            "processing_duration": 3.364,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "d21319bd-881d-42c6-bed1-1787f0e0b72a",
+        "event_type": "operational_anomaly",
+        "timestamp": "2026-05-16T03:08:32.588921+00:00",
+        "details": {
+            "anomaly_id": "bfb18777-c74a-4c92-a7b6-3454e2702305",
+            "anomaly_type": "processing_duration_exceeded",
+            "severity": "medium",
+            "timestamp": "2026-05-16T03:08:32.583827+00:00",
+            "details": {
+                "processing_duration": 11.0305
+            }
+        }
+    },
+    {
+        "event_id": "320a47e1-778a-4b09-bb5b-7f0336e20bd8",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T03:08:32.595330+00:00",
+        "details": {
+            "processing_duration": 11.0305,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "a82ef97c-f3de-4812-af86-374d563d1f5c",
+        "event_type": "operational_anomaly",
+        "timestamp": "2026-05-16T03:08:32.600450+00:00",
+        "details": {
+            "anomaly_id": "90483583-6a6f-4390-80a0-a6252dac99d6",
+            "anomaly_type": "processing_duration_exceeded",
+            "severity": "medium",
+            "timestamp": "2026-05-16T03:08:32.599726+00:00",
+            "details": {
+                "processing_duration": 11.0305
+            }
+        }
+    },
+    {
+        "event_id": "03beb618-0672-41f8-936b-9888c273b960",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T03:13:11.910735+00:00",
+        "details": {
+            "processing_duration": 3.2066,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "f55ca496-74d4-405f-98e8-98d89843f593",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-16T03:16:45.483312+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "5ec15576-034f-401d-aae9-686586afc1c3",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-16T03:22:22.774475+00:00",
+        "details": {
+            "session_count": 34
+        }
+    },
+    {
+        "event_id": "2201f8fd-199b-42a0-82af-c9d70c81b2f5",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T03:22:52.418940+00:00",
+        "details": {
+            "processing_duration": 9.5385,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "1d543619-6781-408d-95c0-55418a002da8",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T03:25:57.194655+00:00",
+        "details": {
+            "processing_duration": 2.6226,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "da85e3d0-0144-4099-810f-3089eede49a4",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T03:26:42.167291+00:00",
+        "details": {
+            "processing_duration": 8.2233,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "b90a3b52-8fe3-455e-8749-8508961007de",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-16T03:28:44.342389+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "df3ab961-ecfd-4298-8c46-5dd48bbea8ef",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-16T03:31:27.165629+00:00",
+        "details": {
+            "session_count": 35
+        }
+    },
+    {
+        "event_id": "9c6d3158-ccb5-4a3d-bfab-c0588fccca24",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T03:33:27.391542+00:00",
+        "details": {
+            "processing_duration": 5.2473,
+            "enrichment_layers": 20
+        }
+    },
+    {
+        "event_id": "871d9e3b-4440-4208-b94e-bc2d53d9733c",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-16T03:40:47.229690+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "40a58ab1-b8a0-4178-89dd-8ae18813795b",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-16T05:00:35.632351+00:00",
+        "details": {
+            "session_count": 36
+        }
+    },
+    {
+        "event_id": "f60d67a9-be5b-4d73-801a-3c55c06cc18b",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T05:01:14.148947+00:00",
+        "details": {
+            "processing_duration": 3.1082,
+            "enrichment_layers": 8
+        }
+    },
+    {
+        "event_id": "77fe4ec7-259c-4e69-9c19-17b4de6f2f66",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-16T05:02:42.252428+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "0691438f-7f0d-4006-a8b1-3439353d87b3",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-16T05:19:52.905635+00:00",
+        "details": {
+            "session_count": 37
+        }
+    },
+    {
+        "event_id": "6e7e003e-8d91-41be-9d45-af36da195fd9",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T05:20:26.841574+00:00",
+        "details": {
+            "processing_duration": 3.3048,
+            "enrichment_layers": 8
+        }
+    },
+    {
+        "event_id": "01fd9827-1ff6-4259-af01-0d0bc50a37b1",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-16T05:22:19.394419+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "7226788e-5049-4969-b4b3-a75e61eeafe2",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-16T05:23:55.518136+00:00",
+        "details": {
+            "session_count": 38
+        }
+    },
+    {
+        "event_id": "f71410bc-13b8-4167-b489-5926e0e66fc6",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T05:24:25.619910+00:00",
+        "details": {
+            "processing_duration": 3.5343,
+            "enrichment_layers": 8
+        }
+    },
+    {
+        "event_id": "97ff7c2f-82b3-4e70-ad4d-b313005d5b8b",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T05:24:58.873539+00:00",
+        "details": {
+            "processing_duration": 2.5551,
+            "enrichment_layers": 8
+        }
+    },
+    {
+        "event_id": "3d719a43-7bcc-4531-9691-330d6a587894",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T05:25:45.498060+00:00",
+        "details": {
+            "processing_duration": 3.5837,
+            "enrichment_layers": 8
+        }
+    },
+    {
+        "event_id": "e3413046-83c5-4f24-a507-17d2931d2445",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-16T05:27:41.750791+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "4c1b83c8-0d8a-4b29-904f-a7f0fdd26848",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-16T05:30:47.739180+00:00",
+        "details": {
+            "session_count": 39
+        }
+    },
+    {
+        "event_id": "d3addf1a-5faf-4665-8e50-140e42fa139c",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-16T05:31:26.987857+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "990e434f-98b9-43a7-bc5d-6129c6c66da2",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-16T06:10:44.910220+00:00",
+        "details": {
+            "session_count": 40
+        }
+    },
+    {
+        "event_id": "e5eef7f3-ad9d-43a3-bc18-aab89bf5983f",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T06:11:18.944691+00:00",
+        "details": {
+            "processing_duration": 2.8952,
+            "enrichment_layers": 8
+        }
+    },
+    {
+        "event_id": "63a1bc23-5169-48c8-8a11-70221672e375",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-16T06:12:53.972805+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "a57f3620-4834-482a-911f-b5f8778cd67b",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-16T06:16:44.357993+00:00",
+        "details": {
+            "session_count": 41
+        }
+    },
+    {
+        "event_id": "209f2105-d114-4865-97ba-2e08ececd0fa",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-16T06:30:58.445740+00:00",
+        "details": {
+            "session_count": 42
+        }
+    },
+    {
+        "event_id": "b95a732e-e309-4264-88cf-8169cd3c1fd9",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T06:31:23.860373+00:00",
+        "details": {
+            "processing_duration": 4.7349,
+            "enrichment_layers": 8
+        }
+    },
+    {
+        "event_id": "daeaa150-9515-41de-827b-f833dc2d48c4",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T06:32:06.311040+00:00",
+        "details": {
+            "processing_duration": 1.4567,
+            "enrichment_layers": 8
+        }
+    },
+    {
+        "event_id": "bd8ec58d-9fc8-483b-9460-ec06a10883f2",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T06:32:54.984082+00:00",
+        "details": {
+            "processing_duration": 1.304,
+            "enrichment_layers": 8
+        }
+    },
+    {
+        "event_id": "68797047-0dbd-4827-9b61-0093e179143d",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-16T06:39:09.448053+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "200aa724-218e-4fb7-8aa1-16342e2c2f77",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-16T12:06:16.453062+00:00",
+        "details": {
+            "session_count": 43
+        }
+    },
+    {
+        "event_id": "31fe548d-3baa-4120-b7d5-e48d123e3db3",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T12:08:56.549370+00:00",
+        "details": {
+            "processing_duration": 3.5498,
+            "enrichment_layers": 8
+        }
+    },
+    {
+        "event_id": "b61a8d7e-1c2d-40a5-951b-23af5b8e1dd3",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-16T12:12:05.170683+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "2b23bf1a-b924-415c-b487-e71a637da4e4",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-16T13:33:27.187498+00:00",
+        "details": {
+            "session_count": 44
+        }
+    },
+    {
+        "event_id": "15daa003-7e9a-4fd9-a15f-38d62522e4b4",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T13:33:51.223896+00:00",
+        "details": {
+            "processing_duration": 3.2114,
+            "enrichment_layers": 8
+        }
+    },
+    {
+        "event_id": "32f247c0-4033-4d1f-91cc-60f64be0a597",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-16T13:36:23.812918+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "2a3f3991-db17-4c75-8a52-0ac19f9ad45a",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-16T16:03:21.307340+00:00",
+        "details": {
+            "session_count": 45
+        }
+    },
+    {
+        "event_id": "1abf235d-3335-42eb-b14b-47682119c041",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T16:16:19.372401+00:00",
+        "details": {
+            "processing_duration": 5.8457,
+            "enrichment_layers": 21
+        }
+    },
+    {
+        "event_id": "f46cb26c-ad1c-49c2-b15b-bfb1e53c3070",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T16:26:15.593419+00:00",
+        "details": {
+            "processing_duration": 2.8451,
+            "enrichment_layers": 21
+        }
+    },
+    {
+        "event_id": "b214a1bb-9457-459c-b551-a493bd95a338",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-16T16:40:12.024200+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "a3cfca49-9ae1-4d05-9a2b-bf6e36a82123",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-16T16:44:58.637119+00:00",
+        "details": {
+            "session_count": 46
+        }
+    },
+    {
+        "event_id": "c98441d8-a8c1-470e-b448-7eaa84eb26f5",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T16:48:23.930334+00:00",
+        "details": {
+            "processing_duration": 7.3326,
+            "enrichment_layers": 21
+        }
+    },
+    {
+        "event_id": "48324524-b7a4-41c0-85f7-0f2069057fae",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T17:01:01.460122+00:00",
+        "details": {
+            "processing_duration": 2.9529,
+            "enrichment_layers": 21
+        }
+    },
+    {
+        "event_id": "e4475e1c-86ba-451b-bbc1-a9b25868e4bd",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T17:11:40.396175+00:00",
+        "details": {
+            "processing_duration": 5.6916,
+            "enrichment_layers": 21
+        }
+    },
+    {
+        "event_id": "1f0ba929-0f0d-4f72-a7cf-9d8b980af492",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T17:21:44.380725+00:00",
+        "details": {
+            "processing_duration": 3.5558,
+            "enrichment_layers": 21
+        }
+    },
+    {
+        "event_id": "9e17436c-c267-4834-aa41-807e66f952fa",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T17:29:26.714363+00:00",
+        "details": {
+            "processing_duration": 5.1569,
+            "enrichment_layers": 21
+        }
+    },
+    {
+        "event_id": "418075fb-650d-4758-83f7-7db313b73889",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T17:35:22.426439+00:00",
+        "details": {
+            "processing_duration": 2.4437,
+            "enrichment_layers": 21
+        }
+    },
+    {
+        "event_id": "94717146-003e-41ed-b04e-9a2b63858619",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T17:45:47.190978+00:00",
+        "details": {
+            "processing_duration": 4.4393,
+            "enrichment_layers": 21
+        }
+    },
+    {
+        "event_id": "baa9ff50-37a3-4741-ab32-91c65803aa3a",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T17:53:23.236780+00:00",
+        "details": {
+            "processing_duration": 4.1177,
+            "enrichment_layers": 21
+        }
+    },
+    {
+        "event_id": "79b166c2-f6ce-4dd1-9459-14c0e88b3674",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-16T18:03:22.704862+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "238674c9-1310-438c-b8e7-11e012f0409d",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-16T19:16:43.453445+00:00",
+        "details": {
+            "session_count": 47
+        }
+    },
+    {
+        "event_id": "71930ae2-4df1-4a1e-8f6f-63370306a3dd",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T19:17:30.245650+00:00",
+        "details": {
+            "processing_duration": 2.1929,
+            "enrichment_layers": 21
+        }
+    },
+    {
+        "event_id": "3de63941-2ce9-4ba6-8e16-bac9586b9004",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-16T19:18:21.138277+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "95ed25ea-0adc-44bd-875b-ed651f9ea236",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-16T19:24:52.541814+00:00",
+        "details": {
+            "session_count": 48
+        }
+    },
+    {
+        "event_id": "accc1c2f-e7a1-473f-885c-f97978088a7b",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T19:25:14.187783+00:00",
+        "details": {
+            "processing_duration": 2.5998,
+            "enrichment_layers": 21
+        }
+    },
+    {
+        "event_id": "25389a54-a40b-4018-b2b8-a588ef0f4a1b",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-16T19:26:09.309236+00:00",
+        "details": {
+            "status": "closed"
+        }
+    },
+    {
+        "event_id": "8c7113a2-72f4-4e79-b8a6-30afa51b9e0a",
+        "event_type": "runtime_session_started",
+        "timestamp": "2026-05-16T19:36:15.448517+00:00",
+        "details": {
+            "session_count": 49
+        }
+    },
+    {
+        "event_id": "c83d9fa8-ae7e-44f8-a16e-e1086fc77860",
+        "event_type": "response_generated",
+        "timestamp": "2026-05-16T19:36:33.042064+00:00",
+        "details": {
+            "processing_duration": 3.265,
+            "enrichment_layers": 21
+        }
+    },
+    {
+        "event_id": "48908ca5-8c1d-4925-9662-16e0e840dfd4",
+        "event_type": "runtime_closed",
+        "timestamp": "2026-05-16T19:38:22.618073+00:00",
+        "details": {
+            "status": "closed"
+        }
+    }
+]

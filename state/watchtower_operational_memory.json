@@ -1,0 +1,1325 @@
+[
+    {
+        "timestamp": "2026-05-12T18:03:34.777614+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:04:04.782199+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:04:34.788613+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:11:28.658234+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:20:01.785187+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:20:31.789224+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:21:01.793732+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:21:31.800121+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:22:01.806937+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:22:31.818012+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:28:24.414284+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:28:54.427196+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:29:24.434073+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:29:54.441910+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:30:24.457266+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:30:54.467167+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:31:24.483982+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:31:54.504158+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:32:24.515204+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:32:54.522134+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:33:24.543162+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:33:54.556844+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:34:24.565792+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:41:23.774412+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:41:53.780934+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:42:23.789917+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:42:53.807234+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:43:23.824353+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:43:53.843159+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:49:15.259762+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:59:29.717892+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T18:59:59.724571+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:00:29.730888+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:00:59.738139+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:01:29.747878+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:01:59.763660+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:02:29.780812+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:02:59.791887+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:03:29.803445+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:03:59.815056+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:04:29.839617+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:04:59.872527+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:05:29.912152+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:05:59.950674+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:06:29.988201+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:07:00.001755+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:07:30.022508+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:08:00.039848+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:08:30.052423+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:09:00.062962+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:09:30.085637+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:10:00.118665+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:10:30.152362+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:11:00.165238+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:11:30.178350+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:12:00.190055+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:12:30.200732+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:13:00.215128+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:13:30.235109+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:14:00.281783+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:14:30.346854+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:15:11.328029+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:16:23.641200+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:17:05.467269+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:17:35.518987+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:18:05.561812+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:18:35.612965+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:19:05.663087+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:19:35.691806+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:20:05.716579+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:20:35.734545+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:21:05.778561+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:21:35.804497+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:22:05.823287+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:22:35.837825+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:23:05.851981+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:23:35.867591+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:24:05.885046+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:24:35.903434+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:25:05.918029+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:25:35.934840+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:26:05.952645+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:26:35.967122+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:27:05.982905+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:27:36.000816+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:28:06.021223+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:28:36.053272+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:29:06.084855+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:29:36.105193+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:30:06.124077+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:30:36.136767+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:31:06.154610+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:31:36.171702+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:36:34.467623+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:37:04.481418+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:37:34.500073+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:38:04.519276+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:38:34.540176+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:39:04.559262+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:44:12.164043+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:44:42.181665+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:45:12.203499+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:45:42.220068+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:46:12.238806+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:46:42.259468+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:47:12.280657+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:47:42.300647+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:52:38.352305+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:53:08.367482+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:53:38.388677+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:54:08.420757+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:54:38.452309+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:55:08.467555+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:55:38.490958+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:56:08.512728+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:56:38.549467+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:57:08.565961+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T19:57:38.582943+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:03:40.409307+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:04:10.425922+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:04:40.444303+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:05:10.469152+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:05:40.491723+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:06:10.549436+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:06:40.623822+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:07:10.660070+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:12:17.381300+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:12:47.405194+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:13:17.428631+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:13:47.452233+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:14:17.476364+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:14:47.502964+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:15:17.529959+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:15:47.550301+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:16:17.574719+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:16:47.600835+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:17:17.625142+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:22:37.066670+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:23:07.086921+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:23:37.105852+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:24:07.128589+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:24:37.155276+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:28:32.097125+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:29:02.113890+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:29:32.137531+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:30:02.159279+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    },
+    {
+        "timestamp": "2026-05-12T20:30:32.176935+00:00",
+        "runtime_health": "stable",
+        "cycle_status": "completed",
+        "scheduler_health": "stable",
+        "infrastructure_score": 100,
+        "resilience_score": 100,
+        "predictive_score": 100
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "raw_message": "hello again",
+        "final_response": "Hello! Welcome back. What's on your mind today?",
+        "reflection_notes": [],
+        "conceptual_patterns": [],
+        "behavioral_preferences": [],
+        "response_characteristics": {
+            "response_length": 47,
+            "paragraph_count": 1,
+            "reflective_tone": false,
+            "systemic_reasoning": false,
+            "relational_presence": false,
+            "creative_variation_expected": false
+        },
+        "operational_state": {
+            "timestamp": "2026-05-17T02:51:40.890490+00:00",
+            "response_generated": true,
+            "response_stable": false,
+            "deployment_ready_memory": true,
+            "adaptive_behavior_active": true,
+            "repetitive_response_detected": false,
+            "instance_id": "mobile_user"
+        }
+    }
+]

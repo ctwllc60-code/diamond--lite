@@ -1,0 +1,368 @@
+2026-05-16 18:18:00,962 INFO Diamond Lite server starting.
+2026-05-16 18:18:00,991 WARNING  * Debugger is active!
+2026-05-16 18:18:01,039 INFO  * Debugger PIN: 142-277-110
+2026-05-16 18:22:27,594 INFO Processing request for user: logging_test_user
+2026-05-16 18:22:30,208 INFO Request completed for user: logging_test_user
+2026-05-16 18:22:30,213 INFO 127.0.0.1 - - [16/May/2026 18:22:30] "POST /message HTTP/1.1" 200 -
+2026-05-16 18:30:10,327 INFO  * Detected change in '/data/data/com.termux/files/home/diamond_lite/api/server.py', reloading
+2026-05-16 18:30:12,625 INFO Diamond Lite server starting.
+2026-05-16 18:30:12,656 WARNING  * Debugger is active!
+2026-05-16 18:30:12,703 INFO  * Debugger PIN: 112-991-665
+2026-05-16 18:34:13,997 INFO Processing request for user: telemetry_user
+2026-05-16 18:34:16,729 INFO Request completed for user: telemetry_user
+2026-05-16 18:34:16,733 INFO 127.0.0.1 - - [16/May/2026 18:34:16] "POST /message HTTP/1.1" 200 -
+2026-05-16 18:37:42,186 INFO  * Detected change in '/data/data/com.termux/files/home/diamond_lite/api/routes/message_routes.py', reloading
+2026-05-16 18:37:44,275 INFO Diamond Lite server starting.
+2026-05-16 18:37:44,304 WARNING  * Debugger is active!
+2026-05-16 18:37:44,344 INFO  * Debugger PIN: 127-494-315
+2026-05-16 18:39:07,379 INFO  * Detected change in '/data/data/com.termux/files/home/diamond_lite/api/server.py', reloading
+2026-05-16 18:39:09,491 INFO Diamond Lite server starting.
+2026-05-16 18:39:09,540 WARNING  * Debugger is active!
+2026-05-16 18:39:09,592 INFO  * Debugger PIN: 132-460-090
+2026-05-16 18:42:04,656 INFO Diamond Lite server starting.
+2026-05-16 18:42:04,692 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.34.227.176:5000
+2026-05-16 18:42:04,693 INFO [33mPress CTRL+C to quit[0m
+2026-05-16 18:42:04,694 INFO  * Restarting with stat
+2026-05-16 18:42:05,677 INFO Diamond Lite server starting.
+2026-05-16 18:42:05,698 WARNING  * Debugger is active!
+2026-05-16 18:42:05,739 INFO  * Debugger PIN: 751-967-222
+2026-05-16 18:42:51,721 INFO Health check requested.
+2026-05-16 18:42:51,724 INFO 127.0.0.1 - - [16/May/2026 18:42:51] "GET /health HTTP/1.1" 200 -
+2026-05-16 18:43:07,763 INFO Processing request for user: modular_test_user
+2026-05-16 18:43:09,882 INFO Request completed for user: modular_test_user
+2026-05-16 18:43:09,884 INFO 127.0.0.1 - - [16/May/2026 18:43:09] "POST /message HTTP/1.1" 200 -
+2026-05-16 18:47:12,963 INFO  * Detected change in '/data/data/com.termux/files/home/diamond_lite/api/auth/api_guard.py', reloading
+2026-05-16 18:47:13,216 INFO  * Restarting with stat
+2026-05-16 18:47:14,778 INFO Diamond Lite server starting.
+2026-05-16 18:47:14,824 WARNING  * Debugger is active!
+2026-05-16 18:47:14,872 INFO  * Debugger PIN: 678-446-185
+2026-05-16 18:51:23,179 INFO  * Detected change in '/data/data/com.termux/files/home/diamond_lite/api/routes/message_routes.py', reloading
+2026-05-16 18:51:23,421 INFO  * Restarting with stat
+2026-05-16 18:51:24,547 INFO Diamond Lite server starting.
+2026-05-16 18:51:24,570 WARNING  * Debugger is active!
+2026-05-16 18:51:24,617 INFO  * Debugger PIN: 151-931-631
+2026-05-16 18:54:14,801 INFO Diamond Lite server starting.
+2026-05-16 18:54:14,842 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.34.227.176:5000
+2026-05-16 18:54:14,843 INFO [33mPress CTRL+C to quit[0m
+2026-05-16 18:54:14,845 INFO  * Restarting with stat
+2026-05-16 18:54:15,787 INFO Diamond Lite server starting.
+2026-05-16 18:54:15,807 WARNING  * Debugger is active!
+2026-05-16 18:54:15,855 INFO  * Debugger PIN: 896-003-933
+2026-05-16 18:54:31,454 INFO 127.0.0.1 - - [16/May/2026 18:54:31] "[31m[1mPOST /message HTTP/1.1[0m" 401 -
+2026-05-16 18:56:33,899 INFO Processing request for user: authorized_user
+2026-05-16 18:56:36,399 INFO Request completed for user: authorized_user
+2026-05-16 18:56:36,400 INFO 127.0.0.1 - - [16/May/2026 18:56:36] "POST /message HTTP/1.1" 200 -
+2026-05-16 19:00:27,297 INFO  * Detected change in '/data/data/com.termux/files/home/diamond_lite/api/services/cognition_service.py', reloading
+2026-05-16 19:00:27,678 INFO  * Restarting with stat
+2026-05-16 19:00:29,544 INFO Diamond Lite server starting.
+2026-05-16 19:00:29,582 WARNING  * Debugger is active!
+2026-05-16 19:00:29,629 INFO  * Debugger PIN: 409-825-148
+2026-05-16 19:01:34,285 INFO  * Detected change in '/data/data/com.termux/files/home/diamond_lite/api/routes/message_routes.py', reloading
+2026-05-16 19:01:34,523 INFO  * Restarting with stat
+2026-05-16 19:01:35,988 INFO Diamond Lite server starting.
+2026-05-16 19:01:36,017 WARNING  * Debugger is active!
+2026-05-16 19:01:36,057 INFO  * Debugger PIN: 145-680-913
+2026-05-16 19:26:03,494 INFO Diamond Lite server starting.
+2026-05-16 19:26:03,550 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.0.237:5000
+2026-05-16 19:26:03,551 INFO [33mPress CTRL+C to quit[0m
+2026-05-16 19:26:03,553 INFO  * Restarting with stat
+2026-05-16 19:26:04,486 INFO Diamond Lite server starting.
+2026-05-16 19:26:04,506 WARNING  * Debugger is active!
+2026-05-16 19:26:04,551 INFO  * Debugger PIN: 810-593-819
+2026-05-16 19:26:31,114 INFO Processing request for user: service_layer_user
+2026-05-16 19:26:31,117 INFO Cognition service processing user: service_layer_user
+2026-05-16 19:26:33,559 INFO Cognition service completed user: service_layer_user
+2026-05-16 19:26:33,561 INFO Request completed for user: service_layer_user
+2026-05-16 19:26:33,566 INFO 127.0.0.1 - - [16/May/2026 19:26:33] "POST /message HTTP/1.1" 200 -
+2026-05-16 19:30:13,687 INFO  * Detected change in '/data/data/com.termux/files/home/diamond_lite/api/infrastructure/runtime_monitor.py', reloading
+2026-05-16 19:30:14,369 INFO  * Restarting with stat
+2026-05-16 19:30:16,426 INFO Diamond Lite server starting.
+2026-05-16 19:30:16,468 WARNING  * Debugger is active!
+2026-05-16 19:30:16,531 INFO  * Debugger PIN: 126-670-049
+2026-05-16 19:31:19,156 INFO  * Detected change in '/data/data/com.termux/files/home/diamond_lite/api/server.py', reloading
+2026-05-16 19:31:19,392 INFO  * Restarting with stat
+2026-05-16 19:31:20,525 INFO Runtime heartbeat updated.
+2026-05-16 19:31:20,530 INFO Diamond Lite server starting.
+2026-05-16 19:31:20,550 WARNING  * Debugger is active!
+2026-05-16 19:31:20,584 INFO  * Debugger PIN: 530-149-552
+2026-05-16 19:53:09,621 INFO Runtime heartbeat updated.
+2026-05-16 19:53:09,626 INFO Diamond Lite server starting.
+2026-05-16 19:53:09,693 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.34.227.176:5000
+2026-05-16 19:53:09,693 INFO [33mPress CTRL+C to quit[0m
+2026-05-16 19:53:09,696 INFO  * Restarting with stat
+2026-05-16 19:53:10,685 INFO Runtime heartbeat updated.
+2026-05-16 19:53:10,689 INFO Diamond Lite server starting.
+2026-05-16 19:53:10,711 WARNING  * Debugger is active!
+2026-05-16 19:53:10,767 INFO  * Debugger PIN: 138-441-810
+2026-05-16 19:53:25,452 INFO Health check requested.
+2026-05-16 19:53:25,454 INFO Runtime heartbeat updated.
+2026-05-16 19:53:25,455 INFO 127.0.0.1 - - [16/May/2026 19:53:25] "GET /health HTTP/1.1" 200 -
+2026-05-16 19:57:31,199 INFO  * Detected change in '/data/data/com.termux/files/home/diamond_lite/api/infrastructure/runtime_scheduler.py', reloading
+2026-05-16 19:57:31,474 INFO  * Restarting with stat
+2026-05-16 19:57:33,458 INFO Runtime heartbeat updated.
+2026-05-16 19:57:33,463 INFO Diamond Lite server starting.
+2026-05-16 19:57:33,499 WARNING  * Debugger is active!
+2026-05-16 19:57:33,538 INFO  * Debugger PIN: 792-826-398
+2026-05-16 19:58:42,535 INFO  * Detected change in '/data/data/com.termux/files/home/diamond_lite/api/server.py', reloading
+2026-05-16 19:58:42,842 INFO  * Restarting with stat
+2026-05-16 19:58:44,518 INFO Runtime heartbeat updated.
+2026-05-16 19:58:44,519 INFO Runtime scheduler heartbeat loop started.
+2026-05-16 19:58:44,520 INFO Runtime heartbeat updated.
+2026-05-16 19:58:44,519 INFO Runtime scheduler activated.
+2026-05-16 19:58:44,526 INFO Diamond Lite server starting.
+2026-05-16 19:58:44,562 WARNING  * Debugger is active!
+2026-05-16 19:58:44,611 INFO  * Debugger PIN: 678-658-396
+2026-05-16 19:59:14,524 INFO Runtime heartbeat updated.
+2026-05-16 19:59:43,259 INFO Runtime heartbeat updated.
+2026-05-16 19:59:43,260 INFO Runtime scheduler heartbeat loop started.
+2026-05-16 19:59:43,260 INFO Runtime scheduler activated.
+2026-05-16 19:59:43,265 INFO Diamond Lite server starting.
+2026-05-16 19:59:43,266 INFO Runtime heartbeat updated.
+2026-05-16 19:59:43,307 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.34.227.176:5000
+2026-05-16 19:59:43,308 INFO [33mPress CTRL+C to quit[0m
+2026-05-16 19:59:43,310 INFO  * Restarting with stat
+2026-05-16 19:59:44,354 INFO Runtime heartbeat updated.
+2026-05-16 19:59:44,354 INFO Runtime scheduler heartbeat loop started.
+2026-05-16 19:59:44,355 INFO Runtime scheduler activated.
+2026-05-16 19:59:44,360 INFO Diamond Lite server starting.
+2026-05-16 19:59:44,362 INFO Runtime heartbeat updated.
+2026-05-16 19:59:44,388 WARNING  * Debugger is active!
+2026-05-16 19:59:44,430 INFO  * Debugger PIN: 669-663-356
+2026-05-16 20:00:13,286 INFO Runtime heartbeat updated.
+2026-05-16 20:00:14,364 INFO Runtime heartbeat updated.
+2026-05-16 20:00:43,300 INFO Runtime heartbeat updated.
+2026-05-16 20:00:44,368 INFO Runtime heartbeat updated.
+2026-05-16 20:01:13,302 INFO Runtime heartbeat updated.
+2026-05-16 20:01:14,371 INFO Runtime heartbeat updated.
+2026-05-16 20:01:43,306 INFO Runtime heartbeat updated.
+2026-05-16 20:01:44,377 INFO Runtime heartbeat updated.
+2026-05-16 20:02:13,310 INFO Runtime heartbeat updated.
+2026-05-16 20:02:14,382 INFO Runtime heartbeat updated.
+2026-05-16 20:02:43,317 INFO Runtime heartbeat updated.
+2026-05-16 20:02:44,388 INFO Runtime heartbeat updated.
+2026-05-16 20:03:13,320 INFO Runtime heartbeat updated.
+2026-05-16 20:03:14,391 INFO Runtime heartbeat updated.
+2026-05-16 20:03:43,322 INFO Runtime heartbeat updated.
+2026-05-16 20:03:44,392 INFO Runtime heartbeat updated.
+2026-05-16 20:03:51,722 INFO  * Detected change in '/data/data/com.termux/files/home/diamond_lite/api/routes/admin_routes.py', reloading
+2026-05-16 20:03:52,038 INFO  * Restarting with stat
+2026-05-16 20:03:53,918 INFO Runtime heartbeat updated.
+2026-05-16 20:03:53,919 INFO Runtime scheduler heartbeat loop started.
+2026-05-16 20:03:53,919 INFO Runtime scheduler activated.
+2026-05-16 20:03:53,925 INFO Diamond Lite server starting.
+2026-05-16 20:03:53,927 INFO Runtime heartbeat updated.
+2026-05-16 20:03:53,982 WARNING  * Debugger is active!
+2026-05-16 20:03:54,030 INFO  * Debugger PIN: 117-038-811
+2026-05-16 20:04:13,323 INFO Runtime heartbeat updated.
+2026-05-16 20:04:23,930 INFO Runtime heartbeat updated.
+2026-05-16 20:04:43,324 INFO Runtime heartbeat updated.
+2026-05-16 20:04:53,933 INFO Runtime heartbeat updated.
+2026-05-16 20:04:55,443 INFO  * Detected change in '/data/data/com.termux/files/home/diamond_lite/api/server.py', reloading
+2026-05-16 20:04:55,676 INFO  * Restarting with stat
+2026-05-16 20:04:56,752 INFO Runtime heartbeat updated.
+2026-05-16 20:04:56,752 INFO Runtime scheduler heartbeat loop started.
+2026-05-16 20:04:56,753 INFO Runtime scheduler activated.
+2026-05-16 20:04:56,759 INFO Diamond Lite server starting.
+2026-05-16 20:04:56,760 INFO Runtime heartbeat updated.
+2026-05-16 20:04:56,784 WARNING  * Debugger is active!
+2026-05-16 20:04:56,853 INFO  * Debugger PIN: 484-976-106
+2026-05-16 20:05:13,327 INFO Runtime heartbeat updated.
+2026-05-16 20:05:39,033 INFO Runtime heartbeat updated.
+2026-05-16 20:05:39,034 INFO Runtime scheduler heartbeat loop started.
+2026-05-16 20:05:39,034 INFO Runtime scheduler activated.
+2026-05-16 20:05:39,040 INFO Diamond Lite server starting.
+2026-05-16 20:05:39,040 INFO Runtime heartbeat updated.
+2026-05-16 20:05:39,069 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.34.227.176:5000
+2026-05-16 20:05:39,070 INFO [33mPress CTRL+C to quit[0m
+2026-05-16 20:05:39,072 INFO  * Restarting with stat
+2026-05-16 20:05:40,008 INFO Runtime heartbeat updated.
+2026-05-16 20:05:40,009 INFO Runtime scheduler heartbeat loop started.
+2026-05-16 20:05:40,009 INFO Runtime scheduler activated.
+2026-05-16 20:05:40,015 INFO Diamond Lite server starting.
+2026-05-16 20:05:40,016 INFO Runtime heartbeat updated.
+2026-05-16 20:05:40,036 WARNING  * Debugger is active!
+2026-05-16 20:05:40,071 INFO  * Debugger PIN: 102-568-500
+2026-05-16 20:06:02,940 INFO 127.0.0.1 - - [16/May/2026 20:06:02] "GET /admin/runtime HTTP/1.1" 200 -
+2026-05-16 20:06:09,044 INFO Runtime heartbeat updated.
+2026-05-16 20:06:10,018 INFO Runtime heartbeat updated.
+2026-05-16 20:06:39,047 INFO Runtime heartbeat updated.
+2026-05-16 20:06:40,020 INFO Runtime heartbeat updated.
+2026-05-16 20:07:09,052 INFO Runtime heartbeat updated.
+2026-05-16 20:07:10,026 INFO Runtime heartbeat updated.
+2026-05-16 20:07:39,054 INFO Runtime heartbeat updated.
+2026-05-16 20:07:40,030 INFO Runtime heartbeat updated.
+2026-05-16 20:08:09,056 INFO Runtime heartbeat updated.
+2026-05-16 20:08:10,032 INFO Runtime heartbeat updated.
+2026-05-16 20:08:39,062 INFO Runtime heartbeat updated.
+2026-05-16 20:08:40,038 INFO Runtime heartbeat updated.
+2026-05-16 20:09:09,067 INFO Runtime heartbeat updated.
+2026-05-16 20:09:10,041 INFO Runtime heartbeat updated.
+2026-05-16 20:09:39,069 INFO Runtime heartbeat updated.
+2026-05-16 20:09:40,043 INFO Runtime heartbeat updated.
+2026-05-16 20:10:02,524 INFO  * Detected change in '/data/data/com.termux/files/home/diamond_lite/api/infrastructure/service_container.py', reloading
+2026-05-16 20:10:02,848 INFO  * Restarting with stat
+2026-05-16 20:10:04,504 INFO Runtime heartbeat updated.
+2026-05-16 20:10:04,505 INFO Runtime scheduler heartbeat loop started.
+2026-05-16 20:10:04,505 INFO Runtime scheduler activated.
+2026-05-16 20:10:04,512 INFO Diamond Lite server starting.
+2026-05-16 20:10:04,513 INFO Runtime heartbeat updated.
+2026-05-16 20:10:04,547 WARNING  * Debugger is active!
+2026-05-16 20:10:04,595 INFO  * Debugger PIN: 995-935-315
+2026-05-16 20:10:09,070 INFO Runtime heartbeat updated.
+2026-05-16 20:10:34,515 INFO Runtime heartbeat updated.
+2026-05-16 20:10:39,073 INFO Runtime heartbeat updated.
+2026-05-16 20:11:04,519 INFO Runtime heartbeat updated.
+2026-05-16 20:11:09,075 INFO Runtime heartbeat updated.
+2026-05-16 20:11:13,606 INFO  * Detected change in '/data/data/com.termux/files/home/diamond_lite/api/server.py', reloading
+2026-05-16 20:11:13,839 INFO  * Restarting with stat
+2026-05-16 20:11:17,009 INFO Initializing infrastructure services.
+2026-05-16 20:11:17,009 INFO Runtime heartbeat updated.
+2026-05-16 20:11:17,010 INFO Runtime scheduler heartbeat loop started.
+2026-05-16 20:11:17,010 INFO Runtime scheduler activated.
+2026-05-16 20:11:17,010 INFO Infrastructure services initialized.
+2026-05-16 20:11:17,017 INFO Diamond Lite server starting.
+2026-05-16 20:11:17,018 INFO Runtime heartbeat updated.
+2026-05-16 20:11:17,042 WARNING  * Debugger is active!
+2026-05-16 20:11:17,080 INFO  * Debugger PIN: 353-704-621
+2026-05-16 20:11:39,077 INFO Runtime heartbeat updated.
+2026-05-16 20:11:47,020 INFO Runtime heartbeat updated.
+2026-05-16 20:12:02,645 INFO Initializing infrastructure services.
+2026-05-16 20:12:02,645 INFO Runtime heartbeat updated.
+2026-05-16 20:12:02,646 INFO Runtime scheduler heartbeat loop started.
+2026-05-16 20:12:02,646 INFO Runtime scheduler activated.
+2026-05-16 20:12:02,646 INFO Infrastructure services initialized.
+2026-05-16 20:12:02,652 INFO Diamond Lite server starting.
+2026-05-16 20:12:02,653 INFO Runtime heartbeat updated.
+2026-05-16 20:12:02,700 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.34.227.176:5000
+2026-05-16 20:12:02,700 INFO [33mPress CTRL+C to quit[0m
+2026-05-16 20:12:02,703 INFO  * Restarting with stat
+2026-05-16 20:12:03,671 INFO Initializing infrastructure services.
+2026-05-16 20:12:03,671 INFO Runtime heartbeat updated.
+2026-05-16 20:12:03,672 INFO Runtime scheduler heartbeat loop started.
+2026-05-16 20:12:03,672 INFO Runtime scheduler activated.
+2026-05-16 20:12:03,672 INFO Infrastructure services initialized.
+2026-05-16 20:12:03,678 INFO Diamond Lite server starting.
+2026-05-16 20:12:03,679 INFO Runtime heartbeat updated.
+2026-05-16 20:12:03,699 WARNING  * Debugger is active!
+2026-05-16 20:12:03,742 INFO  * Debugger PIN: 747-117-404
+2026-05-16 20:12:32,655 INFO Runtime heartbeat updated.
+2026-05-16 20:12:33,683 INFO Runtime heartbeat updated.
+2026-05-16 20:13:02,663 INFO Runtime heartbeat updated.
+2026-05-16 20:13:03,687 INFO Runtime heartbeat updated.
+2026-05-16 20:13:32,667 INFO Runtime heartbeat updated.
+2026-05-16 20:13:33,692 INFO Runtime heartbeat updated.
+2026-05-16 20:14:02,672 INFO Runtime heartbeat updated.
+2026-05-16 20:14:03,698 INFO Runtime heartbeat updated.
+2026-05-16 20:14:32,674 INFO Runtime heartbeat updated.
+2026-05-16 20:14:33,701 INFO Runtime heartbeat updated.
+2026-05-16 20:15:02,678 INFO Runtime heartbeat updated.
+2026-05-16 20:15:03,708 INFO Runtime heartbeat updated.
+2026-05-16 20:15:24,378 INFO  * Detected change in '/data/data/com.termux/files/home/diamond_lite/api/services/cognition_worker.py', reloading
+2026-05-16 20:15:24,667 INFO  * Restarting with stat
+2026-05-16 20:15:25,762 INFO Initializing infrastructure services.
+2026-05-16 20:15:25,763 INFO Runtime heartbeat updated.
+2026-05-16 20:15:25,763 INFO Runtime scheduler heartbeat loop started.
+2026-05-16 20:15:25,764 INFO Runtime scheduler activated.
+2026-05-16 20:15:25,764 INFO Infrastructure services initialized.
+2026-05-16 20:15:25,770 INFO Runtime heartbeat updated.
+2026-05-16 20:15:25,772 INFO Diamond Lite server starting.
+2026-05-16 20:15:25,811 WARNING  * Debugger is active!
+2026-05-16 20:15:25,861 INFO  * Debugger PIN: 445-481-155
+2026-05-16 20:15:32,680 INFO Runtime heartbeat updated.
+2026-05-16 20:15:55,774 INFO Runtime heartbeat updated.
+2026-05-16 20:16:02,685 INFO Runtime heartbeat updated.
+2026-05-16 20:16:25,777 INFO Runtime heartbeat updated.
+2026-05-16 20:16:32,688 INFO Runtime heartbeat updated.
+2026-05-16 20:16:55,780 INFO Runtime heartbeat updated.
+2026-05-16 20:16:56,418 INFO  * Detected change in '/data/data/com.termux/files/home/diamond_lite/api/services/cognition_service.py', reloading
+2026-05-16 20:16:56,655 INFO  * Restarting with stat
+2026-05-16 20:16:57,919 INFO Initializing infrastructure services.
+2026-05-16 20:16:57,919 INFO Runtime heartbeat updated.
+2026-05-16 20:16:57,920 INFO Runtime scheduler heartbeat loop started.
+2026-05-16 20:16:57,920 INFO Runtime scheduler activated.
+2026-05-16 20:16:57,920 INFO Infrastructure services initialized.
+2026-05-16 20:16:57,926 INFO Diamond Lite server starting.
+2026-05-16 20:16:57,927 INFO Runtime heartbeat updated.
+2026-05-16 20:16:57,960 WARNING  * Debugger is active!
+2026-05-16 20:16:58,005 INFO  * Debugger PIN: 109-773-815
+2026-05-16 20:17:02,689 INFO Runtime heartbeat updated.
+2026-05-16 20:17:32,135 INFO Initializing infrastructure services.
+2026-05-16 20:17:32,135 INFO Runtime heartbeat updated.
+2026-05-16 20:17:32,136 INFO Runtime scheduler heartbeat loop started.
+2026-05-16 20:17:32,136 INFO Runtime scheduler activated.
+2026-05-16 20:17:32,136 INFO Infrastructure services initialized.
+2026-05-16 20:17:32,142 INFO Diamond Lite server starting.
+2026-05-16 20:17:32,143 INFO Runtime heartbeat updated.
+2026-05-16 20:17:32,187 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.34.227.176:5000
+2026-05-16 20:17:32,188 INFO [33mPress CTRL+C to quit[0m
+2026-05-16 20:17:32,191 INFO  * Restarting with stat
+2026-05-16 20:17:33,184 INFO Initializing infrastructure services.
+2026-05-16 20:17:33,184 INFO Runtime heartbeat updated.
+2026-05-16 20:17:33,185 INFO Runtime scheduler heartbeat loop started.
+2026-05-16 20:17:33,185 INFO Runtime scheduler activated.
+2026-05-16 20:17:33,185 INFO Infrastructure services initialized.
+2026-05-16 20:17:33,191 INFO Diamond Lite server starting.
+2026-05-16 20:17:33,192 INFO Runtime heartbeat updated.
+2026-05-16 20:17:33,212 WARNING  * Debugger is active!
+2026-05-16 20:17:33,271 INFO  * Debugger PIN: 108-987-831
+2026-05-16 20:17:50,319 INFO Processing request for user: worker_test_user
+2026-05-16 20:17:50,319 INFO Cognition worker initialized: worker_alpha
+2026-05-16 20:17:50,319 INFO Cognition service routing user: worker_test_user
+2026-05-16 20:17:50,319 INFO Worker worker_alpha processing user: worker_test_user
+2026-05-16 20:17:53,053 INFO Worker worker_alpha completed user: worker_test_user
+2026-05-16 20:17:53,053 INFO Cognition service completed user: worker_test_user
+2026-05-16 20:17:53,054 INFO Request completed for user: worker_test_user
+2026-05-16 20:17:53,056 INFO 127.0.0.1 - - [16/May/2026 20:17:53] "POST /message HTTP/1.1" 200 -
+2026-05-16 20:18:02,145 INFO Runtime heartbeat updated.
+2026-05-16 20:18:03,194 INFO Runtime heartbeat updated.
+2026-05-16 20:18:32,147 INFO Runtime heartbeat updated.
+2026-05-16 20:18:33,195 INFO Runtime heartbeat updated.
+2026-05-16 20:19:02,151 INFO Runtime heartbeat updated.
+2026-05-16 20:19:03,197 INFO Runtime heartbeat updated.
+2026-05-16 20:19:32,161 INFO Runtime heartbeat updated.
+2026-05-16 20:19:33,199 INFO Runtime heartbeat updated.
+2026-05-16 20:20:02,164 INFO Runtime heartbeat updated.
+2026-05-16 20:20:03,203 INFO Runtime heartbeat updated.
+2026-05-16 20:20:32,173 INFO Runtime heartbeat updated.
+2026-05-16 20:20:33,206 INFO Runtime heartbeat updated.
+2026-05-16 20:20:48,709 INFO  * Detected change in '/data/data/com.termux/files/home/diamond_lite/api/services/worker_manager.py', reloading
+2026-05-16 20:20:49,272 INFO  * Restarting with stat
+2026-05-16 20:20:51,307 INFO Initializing infrastructure services.
+2026-05-16 20:20:51,308 INFO Runtime heartbeat updated.
+2026-05-16 20:20:51,308 INFO Runtime scheduler heartbeat loop started.
+2026-05-16 20:20:51,309 INFO Runtime heartbeat updated.
+2026-05-16 20:20:51,309 INFO Runtime scheduler activated.
+2026-05-16 20:20:51,309 INFO Infrastructure services initialized.
+2026-05-16 20:20:51,315 INFO Diamond Lite server starting.
+2026-05-16 20:20:51,347 WARNING  * Debugger is active!
+2026-05-16 20:20:51,408 INFO  * Debugger PIN: 127-971-351
+2026-05-16 20:21:02,174 INFO Runtime heartbeat updated.
+2026-05-16 20:21:21,313 INFO Runtime heartbeat updated.
+2026-05-16 20:21:32,179 INFO Runtime heartbeat updated.
+2026-05-16 20:21:50,844 INFO  * Detected change in '/data/data/com.termux/files/home/diamond_lite/api/services/cognition_service.py', reloading
+2026-05-16 20:21:51,193 INFO  * Restarting with stat
+2026-05-16 20:22:02,180 INFO Runtime heartbeat updated.

@@ -1,0 +1,1282 @@
+[
+    {
+        "timestamp": "2026-05-12T16:32:37.936867+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T16:38:33.652593+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T16:44:41.481678+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T16:57:14.387231+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T17:01:56.797903+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T17:06:15.842864+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T17:28:37.368897+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T17:36:48.420835+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T17:55:10.243273+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T17:55:40.248249+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T17:56:10.254387+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T17:56:40.258519+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T17:57:10.263541+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:03:34.775267+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:04:04.779524+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:04:34.785855+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:11:28.655914+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:20:01.782797+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:20:31.787290+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:21:01.791264+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:21:31.796818+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:22:01.803823+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:22:31.810584+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:28:24.412418+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:28:54.423521+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:29:24.430669+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:29:54.438416+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:30:24.447065+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:30:54.465021+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:31:24.472026+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:31:54.493117+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:32:24.511271+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:32:54.518965+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:33:24.530078+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:33:54.552742+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:34:24.561727+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:41:23.771348+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:41:53.777576+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:42:23.785631+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:42:53.796625+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:43:23.819561+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:43:53.831343+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:49:15.256337+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:59:29.714560+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T18:59:59.721830+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:00:29.728036+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:00:59.734490+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:01:29.743085+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:01:59.759337+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:02:29.774999+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:02:59.786809+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:03:29.798414+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:03:59.810048+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:04:29.822957+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:04:59.856046+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:05:29.894226+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:05:59.932719+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:06:29.977506+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:06:59.996931+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:07:30.010108+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:08:00.035489+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:08:30.046739+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:09:00.059348+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:09:30.069727+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:10:00.102431+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:10:30.144294+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:11:00.161085+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:11:30.171867+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:12:00.185933+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:12:30.195248+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:13:00.208331+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:13:30.227132+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:14:00.256448+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:14:30.321291+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:15:11.300931+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:16:23.615256+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:17:05.439374+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:17:35.493142+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:18:05.537028+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:18:35.584392+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:19:05.634658+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:19:35.684384+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:20:05.704530+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:20:35.726991+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:21:05.756712+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:21:35.796901+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:22:05.815513+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:22:35.833140+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:23:05.846099+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:23:35.859731+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:24:05.876906+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:24:35.895493+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:25:05.912206+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:25:35.926870+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:26:05.944340+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:26:35.961748+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:27:05.975867+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:27:35.992346+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:28:06.012684+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:28:36.031968+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:29:06.075872+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:29:36.096572+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:30:06.116938+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:30:36.131327+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:31:06.145634+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:31:36.165829+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:36:34.461275+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:37:04.475587+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:37:34.491182+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:38:04.510005+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:38:34.530700+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:39:04.551876+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:44:12.158344+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:44:42.172515+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:45:12.193856+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:45:42.214449+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:46:12.228999+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:46:42.249832+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:47:12.270847+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:47:42.291938+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:52:38.345963+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:53:08.359332+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:53:38.378759+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:54:08.408212+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:54:38.443362+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:55:08.461183+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:55:38.481853+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:56:08.501127+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:56:38.533607+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:57:08.558280+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T19:57:38.575285+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:03:40.402182+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:04:10.418622+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:04:40.435865+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:05:10.461654+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:05:40.480700+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:06:10.514913+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:06:40.583905+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:07:10.651264+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:12:17.372830+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:12:47.396669+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:13:17.417347+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:13:47.441107+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:14:17.464889+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:14:47.491603+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:15:17.518547+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:15:47.542596+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:16:17.563156+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:16:47.589294+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:17:17.616088+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:22:37.058231+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:23:07.076990+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:23:37.096799+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:24:07.116362+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:24:37.143648+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:28:32.090459+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:29:02.105469+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:29:32.125081+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:30:02.151892+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    },
+    {
+        "timestamp": "2026-05-12T20:30:32.168293+00:00",
+        "runtime_detected": true,
+        "runtime_health": "stable",
+        "infrastructure_score": null,
+        "cycle_status": "completed",
+        "scheduler_health": "stable"
+    }
+]
