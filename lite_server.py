@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-# ENGINE_ID: lite_server.py | VERSION: 5.1 (Responsive mobile chat, voice‑gated)
+# ENGINE_ID: lite_server.py | VERSION: 5.2 (Compact mobile chat, no jump scrolling)
 """
 Diamond Lite – Cloud Server
 Flask application with signup, login, chat, memory, tier enforcement,
-health endpoints, and a responsive mobile‑first chat interface.
+health endpoints, and a compact mobile‑first chat interface.
 Voice is only available for paid (Personal / Professional) users.
 """
 
@@ -130,7 +130,7 @@ def chat():
     })
 
 
-# ---- Responsive Chat Web Interface ----
+# ---- Compact Chat Web Interface ----
 @app.route("/")
 def index():
     return CHAT_PAGE
@@ -145,30 +145,30 @@ CHAT_PAGE = """
 <title>Diamond Lite</title>
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
-html, body { height: 100%; width: 100%; overflow: hidden; background: #0f0f0f; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+html, body { height: 100%; overflow: hidden; background: #0f0f0f; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
 body { display: flex; justify-content: center; align-items: center; }
 #app { width: 100%; height: 100%; max-width: 600px; display: flex; flex-direction: column; background: #0f0f0f; color: #eee; }
 #auth { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 24px; gap: 12px; height: 100%; }
-#auth h2 { color: #0a7; font-size: 28px; margin-bottom: 16px; }
-#auth input { width: 100%; padding: 14px 16px; border: none; border-radius: 12px; font-size: 16px; background: #1c1c1c; color: #eee; }
-#auth button { width: 100%; padding: 14px; border: none; border-radius: 12px; font-size: 16px; font-weight: bold; cursor: pointer; }
+#auth h2 { color: #0a7; font-size: 22px; margin-bottom: 12px; }
+#auth input { width: 100%; padding: 10px 12px; border: none; border-radius: 8px; font-size: 14px; background: #1c1c1c; color: #eee; }
+#auth button { width: 100%; padding: 10px; border: none; border-radius: 8px; font-size: 14px; font-weight: bold; cursor: pointer; }
 #auth .primary { background: #0a7; color: #fff; }
 #auth .secondary { background: #444; color: #fff; }
-#auth-error { color: #e44; font-size: 14px; min-height: 20px; }
+#auth-error { color: #e44; font-size: 12px; min-height: 16px; text-align: center; }
 #chat-container { display: none; flex-direction: column; height: 100%; }
-#header { padding: 12px 16px; background: #121212; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #222; }
-#header h2 { font-size: 20px; color: #0a7; }
-#logout-btn { background: transparent; border: 1px solid #444; color: #aaa; padding: 6px 14px; border-radius: 16px; font-size: 13px; cursor: pointer; }
-#messages { flex: 1; overflow-y: auto; padding: 16px; display: flex; flex-direction: column; gap: 12px; }
-.msg { max-width: 80%; padding: 12px 16px; border-radius: 18px; line-height: 1.45; font-size: 15px; word-wrap: break-word; }
-.msg.user { align-self: flex-end; background: #1a5fb4; color: #fff; border-bottom-right-radius: 4px; }
-.msg.assistant { align-self: flex-start; background: #2a2a2a; color: #ddd; border-bottom-left-radius: 4px; }
-#status { text-align: center; font-size: 11px; color: #666; padding: 6px; border-top: 1px solid #222; background: #0f0f0f; }
-#input-area { display: flex; gap: 8px; padding: 10px 12px; background: #181818; border-top: 1px solid #333; }
-#input-area input { flex: 1; padding: 12px 16px; border: none; border-radius: 24px; background: #252525; color: #eee; font-size: 15px; outline: none; }
-#input-area button { padding: 12px 16px; border: none; border-radius: 24px; font-size: 15px; font-weight: bold; cursor: pointer; display: flex; align-items: center; justify-content: center; }
-#mic-btn { background: #0a7; color: #fff; min-width: 48px; }
-#send-btn { background: #444; color: #fff; min-width: 48px; }
+#header { padding: 8px 12px; background: #121212; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #222; }
+#header h2 { font-size: 16px; color: #0a7; }
+#logout-btn { background: transparent; border: 1px solid #444; color: #aaa; padding: 3px 10px; border-radius: 12px; font-size: 11px; cursor: pointer; }
+#messages { flex: 1; overflow-y: auto; padding: 10px; display: flex; flex-direction: column; gap: 6px; -webkit-overflow-scrolling: touch; }
+.msg { max-width: 85%; padding: 8px 10px; border-radius: 14px; line-height: 1.3; font-size: 13px; word-wrap: break-word; }
+.msg.user { align-self: flex-end; background: #1a5fb4; color: #fff; border-bottom-right-radius: 3px; }
+.msg.assistant { align-self: flex-start; background: #2a2a2a; color: #ddd; border-bottom-left-radius: 3px; }
+#status { text-align: center; font-size: 10px; color: #666; padding: 4px; border-top: 1px solid #222; background: #0f0f0f; flex-shrink: 0; }
+#input-area { display: flex; gap: 5px; padding: 6px 8px; background: #181818; border-top: 1px solid #333; flex-shrink: 0; }
+#input-area input { flex: 1; padding: 8px 12px; border: none; border-radius: 18px; background: #252525; color: #eee; font-size: 13px; outline: none; }
+#input-area button { padding: 8px 12px; border: none; border-radius: 18px; font-size: 13px; font-weight: bold; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+#mic-btn { background: #0a7; color: #fff; min-width: 40px; }
+#send-btn { background: #444; color: #fff; min-width: 40px; }
 </style>
 </head>
 <body>
