@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-# ENGINE_ID: lite_server.py | VERSION: 5.7 (Profile update, compact UI)
+# ENGINE_ID: lite_server.py | VERSION: 5.8 (Working profile update, compact UI)
 """
 Diamond Lite – Cloud Server
 Flask application with signup, login, chat, memory, tier enforcement,
 health endpoints, and a proven stable mobile‑first chat interface.
-Compact text, fully visible buttons, smooth scroll, and profile update.
+Compact text, fully visible buttons, smooth scroll, and working profile update.
 """
 
 from flask import Flask, request, jsonify
@@ -398,7 +398,7 @@ async function changeName() {
   if (!newName) return;
   const data = await api('/profile', { display_name: newName });
   if (data.success) {
-    alert('Got it! I\'ll call you ' + data.display_name + ' from now on.');
+    addMsg('assistant', 'From now on, I\'ll call you ' + data.display_name + '.');
   } else {
     alert('Something went wrong. Please try again.');
   }
