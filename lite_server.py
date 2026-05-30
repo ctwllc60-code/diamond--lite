@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-# ENGINE_ID: lite_server.py | VERSION: 5.8 (Working profile update, compact UI)
+# ENGINE_ID: lite_server.py | VERSION: 5.9 (Login cache fix, compact UI)
 """
 Diamond Lite – Cloud Server
 Flask application with signup, login, chat, memory, tier enforcement,
 health endpoints, and a proven stable mobile‑first chat interface.
-Compact text, fully visible buttons, smooth scroll, and working profile update.
+Compact text, fully visible buttons, smooth scroll, working profile update,
+and cache‑control headers to prevent login issues.
 """
 
 from flask import Flask, request, jsonify
@@ -28,6 +29,14 @@ from lite_memory import update_user_memory, get_memory_summary as get_memory_con
 from lite_tiers import check_message_allowed, get_tier_info
 
 app = Flask(__name__)
+
+# ---- Force no caching for all responses (fixes login after updates) ----
+@app.after_request
+def add_cache_headers(response):
+    response.headers['Cache-Control'] = 'no-store, no-cache, must-revalidate, max-age=0'
+    response.headers['Pragma'] = 'no-cache'
+    response.headers['Expires'] = '0'
+    return response
 
 active_tokens = {}
 
