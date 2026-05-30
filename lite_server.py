@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-# ENGINE_ID: lite_server.py | VERSION: 5.3 (Fixed input layout, 100 free msgs)
+# ENGINE_ID: lite_server.py | VERSION: 5.4 (Privacy policy route added)
 """
 Diamond Lite – Cloud Server
 Flask application with signup, login, chat, memory, tier enforcement,
-health endpoints, and a compact mobile‑first chat interface.
+health endpoints, privacy policy, and a compact mobile‑first chat interface.
 Free tier now allows 100 messages per day.
 """
 
@@ -40,6 +40,19 @@ def generate_token(user_id: int) -> str:
 
 def get_user_id_from_token(token: str) -> int | None:
     return active_tokens.get(token)
+
+
+# ---- Privacy Policy ----
+@app.route("/privacy")
+def privacy():
+    return """<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Privacy Policy</title></head><body>
+<h1>Privacy Policy for Diamond Lite</h1>
+<p>Last updated: May 30, 2026</p>
+<p>Diamond Lite does not collect, store, or share any personal information beyond what is necessary to provide the chat service. Messages are processed through an AI model and are not used for any other purpose.</p>
+<p>Email addresses are used solely for account authentication and are never shared with third parties.</p>
+<p>No cookies are used for tracking. No advertising networks are integrated.</p>
+<p>If you have any questions, contact us at ctwllc60@gmail.com.</p>
+</body></html>"""
 
 
 # ---- Health endpoint (for Watchtower) ----
