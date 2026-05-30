@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
-# ENGINE_ID: lite_server.py | VERSION: 6.0 (All 5 features: dashboard, starters, reflection, search, export)
+# ENGINE_ID: lite_server.py | VERSION: 7.0 (Code Helper Mode enabled)
 """
 Diamond Lite – Cloud Server
-Flask application with signup, login, chat, memory, tier enforcement,
-health endpoints, privacy policy, memory dashboard, conversation starters,
-daily reflection, message search, and export chats.
-Voice is only available for paid (Personal / Professional) users.
+Full features: memory dashboard, starters, reflection, search, export,
+voice gating, tier enforcement, and automatic Code Helper Mode.
 """
 
 from flask import Flask, request, jsonify
@@ -44,6 +42,19 @@ def generate_token(user_id: int) -> str:
 
 def get_user_id_from_token(token: str) -> int | None:
     return active_tokens.get(token)
+
+
+# ---- Code Helper detection ----
+CODE_KEYWORDS = [
+    "write a", "code", "function", "error", "debug", "python",
+    "javascript", "html", "css", "build an app", "program",
+    "script", "how do i", "fix this", "explain this code"
+]
+
+
+def is_coding_question(text: str) -> bool:
+    lowered = text.lower()
+    return any(keyword in lowered for keyword in CODE_KEYWORDS)
 
 
 # ---- Privacy Policy ----
@@ -206,15 +217,26 @@ def chat():
     history = get_recent_conversation(user_id, 10)
     history_text = "\n".join(f"{m['role']}: {m['content']}" for m in history)
 
-    full_prompt = (
+    # Base system prompt
+    system_prompt = (
         f"You are Diamond Lite, a personal AI companion. "
         f"The user you are speaking with is named {display_name}. "
         f"Use their name occasionally, naturally, when it feels right—not every message. "
         f"Never guess the time of day, day of week, or season. "
         f"Never fabricate history or pretend to know things you don't. "
-        f"Be warm, present, and genuine.\n\n"
-        f"Conversation history:\n{history_text}\n\nUser: {message}"
+        f"Be warm, present, and genuine."
     )
+
+    # Code Helper Mode
+    if is_coding_question(message):
+        system_prompt += (
+            " You are also a helpful coding assistant. "
+            "Respond with clear, step‑by‑step explanations. "
+            "When providing code, use triple backticks (```) to format it properly. "
+            "Be concise but thorough. Encourage the user to learn by explaining concepts."
+        )
+
+    full_prompt = f"{system_prompt}\n\nConversation history:\n{history_text}\n\nUser: {message}"
     response = ask_llm(full_prompt, memory_context)
 
     save_message(user_id, "assistant", response)
@@ -264,14 +286,15 @@ body { display: flex; justify-content: center; align-items: center; }
 #chat-container { display: none; flex-direction: column; height: 100%; }
 #header { padding: 8px 12px; background: #121212; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #222; }
 #header h2 { font-size: 16px; color: #0a7; }
-#header-buttons { display: flex; gap: 8px; }
+#header-buttons { display: flex; gap: 8px; flex-wrap: wrap; }
 #header-buttons button { background: transparent; border: 1px solid #444; color: #aaa; padding: 3px 10px; border-radius: 12px; font-size: 11px; cursor: pointer; }
 #suggestions { display: flex; flex-wrap: wrap; gap: 6px; padding: 8px 12px; background: #121212; border-bottom: 1px solid #222; }
 #suggestions button { background: #1c1c1c; border: 1px solid #333; color: #ccc; padding: 6px 12px; border-radius: 14px; font-size: 11px; cursor: pointer; }
 #messages { flex: 1; overflow-y: auto; padding: 10px; display: flex; flex-direction: column; gap: 6px; -webkit-overflow-scrolling: touch; }
-.msg { max-width: 85%; padding: 8px 10px; border-radius: 14px; line-height: 1.3; font-size: 13px; word-wrap: break-word; }
+.msg { max-width: 85%; padding: 8px 10px; border-radius: 14px; line-height: 1.3; font-size: 13px; word-wrap: break-word; white-space: pre-wrap; font-family: inherit; }
 .msg.user { align-self: flex-end; background: #1a5fb4; color: #fff; border-bottom-right-radius: 3px; }
 .msg.assistant { align-self: flex-start; background: #2a2a2a; color: #ddd; border-bottom-left-radius: 3px; }
+.msg.assistant code, .msg.assistant pre { background: #1a1a1a; border-radius: 4px; padding: 2px 4px; font-family: monospace; font-size: 11px; }
 #status { text-align: center; font-size: 10px; color: #666; padding: 4px; border-top: 1px solid #222; background: #0f0f0f; flex-shrink: 0; }
 #input-area { display: flex; gap: 6px; padding: 6px 8px; background: #181818; border-top: 1px solid #333; flex-shrink: 0; align-items: center; }
 #input-area input { flex: 1; min-width: 0; padding: 8px 12px; border: none; border-radius: 18px; background: #252525; color: #eee; font-size: 13px; outline: none; }
